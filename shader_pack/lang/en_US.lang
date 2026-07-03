@@ -55,9 +55,8 @@ option.info8.comment=OCS GitHub: https://github.com/Open-code-Studio
 
 #Style
 option.SHADER_STYLE=视觉风格
-option.SHADER_STYLE.comment=决定光影包的默认视觉风格。§b幻想§r: 补充Minecraft同时保留其独特视觉元素。§d无界§r: 以半写实幻想风格重做Minecraft视觉。§e[*]§r 受影响的设置: 水面风格, 云层风格, 日月风格, 日月角度, 极光风格, 发光矿石。
+option.SHADER_STYLE.comment=决定光影包的默认视觉风格。§b幻想§r: 补充Minecraft同时保留其独特视觉元素。§e[*]§r 受影响的设置: 水面风格, 云层风格, 日月风格, 日月角度, 极光风格, 发光矿石。
 value.SHADER_STYLE.1=§b幻想
-value.SHADER_STYLE.4=§d无界
 
 #Screens
 screen.PERFORMANCE_SETTINGS=§e性能设置§r
@@ -99,6 +98,9 @@ screen.END_SETTINGS.comment=与末地维度相关的设置。
 
 screen.WEATHER_SETTINGS=雨/天气
 screen.WEATHER_SETTINGS.comment=与天气状况相关的设置。
+
+screen.NORMAL_SETTINGS=法线凸起
+screen.NORMAL_SETTINGS.comment=控制方块表面的立体凹凸效果。参考Sundial光影的法线处理技术，核心参数集中于此。
 
 screen.CAMERA_SETTINGS=镜头
 screen.CAMERA_SETTINGS.comment=与视角和镜头相关的设置。
@@ -187,6 +189,12 @@ value.RP_MODE.0=§a基础
 value.RP_MODE.1=§b集成PBR+
 value.RP_MODE.2=§eseuspbr(需资源包)
 value.RP_MODE.3=§elabPBR(需资源包)
+
+option.COLOR_LIGHT_MODE=模拟色彩光照 §c[苹果设备]§r
+option.COLOR_LIGHT_MODE.comment=§c苹果设备不支持原生彩色光源，此为替代技术。§r§a真实色彩§r: 发光矿石+自发光方块+高亮发射模拟有色光照环境。§e增强色彩§r: 额外叠加时段光色曲线，模拟冷暖色温变化。§c关闭§r: 不应用任何色彩模拟。
+value.COLOR_LIGHT_MODE.0=§c关闭
+value.COLOR_LIGHT_MODE.1=§a真实色彩
+value.COLOR_LIGHT_MODE.2=§e增强色彩
 
 option.WATER_REFLECT_QUALITY=水面反射质量
 option.WATER_REFLECT_QUALITY.comment=调整半透明物体上反射的视觉质量。§c中§r: 屏幕空间光线追踪反射。§e土豆§r: 更快速的方法替代，某些情况可能不准确。§a关闭§r: 无反射。

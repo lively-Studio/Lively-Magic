@@ -63,11 +63,24 @@ void GetCustomMaterials(inout vec4 color, inout vec3 normalM, inout vec2 lmCoord
             vec4 normalMap = texture2D(normals, texCoordM);
         #endif
 
+        // Sundial SMOOTH_NORMAL: bilinear sample to reduce distant aliasing
+        float nLodBias = max(0.0, lViewPos / max(POM_DISTANCE * 0.5, 1.0));
+        if (nLodBias > 0.5) {
+            vec2 nTexel = 0.5 / vec2(textureSize(normals, 0));
+            normalMap  = texture2D(normals, texCoordM + vec2( nTexel.x,  nTexel.y));
+            normalMap += texture2D(normals, texCoordM + vec2(-nTexel.x,  nTexel.y));
+            normalMap += texture2D(normals, texCoordM + vec2( nTexel.x, -nTexel.y));
+            normalMap += texture2D(normals, texCoordM + vec2(-nTexel.x, -nTexel.y));
+            normalMap *= 0.25;
+        }
+
         normalM = normalMap.xyz;
-        normalM += vec3(0.5, 0.5, 0.0);
-        normalM = pow(normalM, vec3(NORMAL_MAP_STRENGTH * 0.007)); // 70% strength by default
-        normalM -= vec3(0.5, 0.5, 0.0);
+        // Sundial-style linear strength scaling + decode
+        float nmStrength = NORMAL_MAP_STRENGTH * 0.01;
         normalM = normalM * 2.0 - 1.0;
+        normalM.xy *= nmStrength;
+        normalM.z = sqrt(max(1.0 - dot(normalM.xy, normalM.xy), 0.0));
+        normalM = normalize(normalM);
 
         #if RP_MODE == 3 // labPBR
             if (normalM.x + normalM.y > -1.999) {
@@ -87,7 +100,32 @@ void GetCustomMaterials(inout vec4 color, inout vec3 normalM, inout vec2 lmCoord
             }
         #endif
 
-        normalM = clamp(normalize(normalM * tbnMatrix), vec3(-1.0), vec3(1.0));
+        // Sundial: screen-space TBN blend for more accurate normal transform
+        vec3 ssDX = dFdx(viewPos), ssDY = dFdy(viewPos);
+        vec3 ssN = normalize(cross(ssDX, ssDY));
+        mat3 ssTbn = mat3(normalize(ssDX), normalize(ssDY), ssN);
+        float ssBlend = clamp(lViewPos * 0.015, 0.0, 0.25);
+        mat3 hybridTbn = mat3(
+            mix(tbnMatrix[0], ssTbn[0], ssBlend),
+            mix(tbnMatrix[1], ssTbn[1], ssBlend),
+            normalize(mix(tbnMatrix[2], ssTbn[2], ssBlend))
+        );
+        normalM = clamp(normalize(normalM * hybridTbn), vec3(-1.0), vec3(1.0));
+
+        // Sundial technique: gradient-based normal blending
+        // fade to geometric normal at far distance / low texel density
+        float texGradLen = length(vec2(dFdx(texCoordM.x), dFdy(texCoordM.y)));
+        float normalBlend = clamp(1.0 / (texGradLen * 512.0 + 0.001), 0.0, 1.0);
+        normalM = normalize(mix(normalM, tbnMatrix[2], normalBlend * 0.4));
+
+        // Sundial technique: edge normal correction at grazing angles
+        vec3 viewDirN = normalize(viewPos);
+        float NdotV = dot(normalM, viewDirN);
+        if (NdotV < 0.15) {
+            vec3 edgeNormal = normalize(normalM - viewDirN * NdotV);
+            float w = smoothstep(0.0, 0.15, NdotV);
+            normalM = normalize(mix(edgeNormal, normalM, w));
+        }
 
         NdotU = dot(normalM, upVec);
         NdotUmax0 = max0(NdotU);

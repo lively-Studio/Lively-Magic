@@ -1,23 +1,27 @@
-# 项目记忆 - 灵动:视效 (Lively Visual Effects)
+# 项目记忆 - LVE-灵动视效 向阳而生·Sunward
 
 ## 项目概述
-Minecraft PBR材质包 + 专属光影系统，学习零雾老师的设计理念。
+专属 Minecraft 光影系统，基于 Complementary Reimagined r5 架构，专注于 PBR 着色器光照。
 
 ## 项目结构
-- `texture_pack/` - PBR材质包（双版本兼容）
-- `shader_pack/` - 专属光影（GLSL着色器）
-- `tools/generate_pbr.py` - PBR贴图自动生成器
+- `shader_pack/` - 光影着色器
+  - `lib/common.glsl` - 核心配置定义（RP_MODE=2 labPBR, POM_DEPTH=0.90, NORMAL_MAP_STRENGTH=50）
+  - `program/` - 着色器程序（gbuffers_basic, gbuffers_terrain 等）
+  - `lang/` - 中文化设置
+- `参考/` - 零雾老师 ZeroPBR 效果参考截图
 
 ## 关键设计决策
-- **设计哲学**: 零雾老师风格——忠实原版画风，增强PBR质感而非魔改
-- **PBR标准**: LabPBR 1.3 (Java) + Bedrock RTX MER格式
-- **渲染管线**: Cook-Torrance BRDF + GGX NDF + Deferred Shading
-- **材质分类**: 30+种预设，分石质/木质/泥土/砖块/金属/玻璃/发光
-- **多分辨率**: 64x/128x/256x 三档
-- **兼容性**: Java(Iris/Optifine/Oculus) + Bedrock RTX
+- **专注光影**：资源包已移除，项目专攻 GLSL 着色器 PBR 光照
+- **基础架构**: Complementary Reimagined r5，`#version 130` + macro-based `#include`
+- **PBR 模式**: RP_MODE=2 (labPBR/CUSTOM_PBR)，POM 仅在地形通道启用
+- **打包规范**: zip 内所有文件必须在 `shaders/` 目录下
+- **macOS ARM 兼容**: Iris 1.10.7 + Sodium，仅 `#version 130` 格式可用
 
-## 开发约定
-- GLSL版本: 150 compatibility
-- 着色器通道命名: gbuffers_*, composite*, shadow.*, final.*
-- PBR贴图命名: name.png / name_n.png / name_s.png / name_mer.png / name_heightmap.png
-- Python纹理生成使用 numpy + Pillow + scipy
+## 重要教训
+- `gbuffers_basic.glsl` 不要添加 POM 代码（变量不全会导致编译失败）
+- 打包用 Python zipfile，确保 `shaders/` 前缀
+- 恢复方法：原始 `LVE-灵动视效.zip` 在各个 shaderpacks 目录有备份
+
+## 安装路径
+- 主实例: `versions/1.21.11-Fabric-CODER/shaderpacks/`
+- 备用: `shaderpacks/`
