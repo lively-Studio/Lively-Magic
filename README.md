@@ -109,7 +109,7 @@ Lively-Magic/
 ## 参考
 
 - **LVE-Sunward** by Lively Studio — 基础架构与代码参考
-- **Complementary Reimagined r5** by EminGT — 原始架构
+- **Complementary Reimagined r5** by EminGT — 方法与结构
 - **零雾构想 (ZeroPBR)** by 零雾05_Fogg05 — PBR 材质标准
 
 ---
