@@ -1,5 +1,5 @@
 #shaders/lang/en_us.lang
-#LVE-灵动视效
+#Lively-Magic 灵动魔法
 
 #Profiles
 profile.POTATO=§a土豆机
@@ -9,7 +9,7 @@ profile.MEDIUM=§a中
 profile.HIGH=§e高(默认)
 profile.VERYHIGH=§c极高
 profile.ULTRA=§4§l极致
-profile.COMPLEMENTARY=§4§l§n§oLVE-灵动视效
+profile.COMPLEMENTARY=§4§l§n§oLively-Magic 灵动魔法
 profile.comment=配置档以最佳的视觉/性能比来调整性能设置。§e[*]§r 建议使用这些预设配置档，除非你知道自己在做什么。§e[*]§r 所有受影响的设置均可在"性能设置"菜单中找到。
 
 #Information
@@ -50,13 +50,8 @@ option.info7.comment=
 
 option.info8=制作组 · Lively Studio
 value.info8.0=
-option.info8.comment=「零」影制作组出品 · github/Open-code-Studio · 向阳而生
+option.info8.comment=「零」影制作组出品 · 灵动魔法 · 让每一束光都充满魔法
 
-
-#Style
-option.SHADER_STYLE=视觉风格
-option.SHADER_STYLE.comment=决定光影包的默认视觉风格。§b幻想§r: 补充Minecraft同时保留其独特视觉元素。§e[*]§r 受影响的设置: 水面风格, 云层风格, 日月风格, 日月角度, 极光风格, 发光矿石。
-value.SHADER_STYLE.1=§b幻想
 
 #Screens
 screen.PERFORMANCE_SETTINGS=§e性能设置§r
@@ -191,7 +186,7 @@ value.RP_MODE.2=§eseuspbr(需资源包)
 value.RP_MODE.3=§elabPBR(需资源包)
 
 option.COLOR_LIGHT_MODE=模拟色彩光照 §c[苹果设备]§r
-option.COLOR_LIGHT_MODE.comment=§c苹果设备不支持原生彩色光源，此为替代技术。§r§a真实色彩§r: 发光矿石+自发光方块+高亮发射模拟有色光照环境。§e增强色彩§r: 额外叠加时段光色曲线，模拟冷暖色温变化。§c关闭§r: 不应用任何色彩模拟。
+option.COLOR_LIGHT_MODE.comment=§c苹果设备不支持原生彩色光源，此为替代技术。§r§a真实色彩§r: 发光矿石+自发光方块+高亮发射模拟有色光照环境。§e增强色彩§r: 额外叠加时段光色曲线，模拟冷暖色温变化，魔法风格推荐。§c关闭§r: 不应用任何色彩模拟。
 value.COLOR_LIGHT_MODE.0=§c关闭
 value.COLOR_LIGHT_MODE.1=§a真实色彩
 value.COLOR_LIGHT_MODE.2=§e增强色彩

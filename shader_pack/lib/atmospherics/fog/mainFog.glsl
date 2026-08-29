@@ -93,7 +93,7 @@
         #endif
 
         vec3 GetAtmFogColor(float altitudeFactorRaw, float VdotS) {
-            float nightFogMult = 2.5 - 0.625 * max(pow2(pow2(altitudeFactorRaw)), rainFactor);
+            float nightFogMult = 0.5 - 0.125 * max(pow2(pow2(altitudeFactorRaw)), rainFactor);
             float dayNightFogBlend = pow(invNightFactor, 4.0 - VdotS - 2.5 * sunVisibility2);
             return mix(
                 nightUpSkyColor * (nightFogMult - dayNightFogBlend * nightFogMult),
@@ -170,7 +170,11 @@
                 fog *= 0.2 + 0.8 * sqrt2(eyeBrightnessM);
                 fog *= 1.0 - GetCaveFactor();
             #else
-                fog *= eyeBrightnessM;
+                // Night: add dense fog layer to limit visibility to ~8 blocks
+                // Day: normal fog behavior
+                float nightFogDensity = 1.0 - eyeBrightnessM;
+                float nightFog = 1.0 - exp(-lViewPos * 0.35 * nightFogDensity);
+                fog = max(fog, nightFog);
             #endif
         #else
             fog *= 0.5;
