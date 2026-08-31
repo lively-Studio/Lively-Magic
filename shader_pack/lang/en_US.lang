@@ -1,44 +1,44 @@
 #shaders/lang/en_us.lang
-#Lively-Magic 灵动魔法
+#Lively-Magic
 
 #Profiles
-profile.POTATO=§a土豆机
-profile.VERYLOW=§a极低
-profile.LOW=§a低
-profile.MEDIUM=§a中
-profile.HIGH=§e高(默认)
-profile.VERYHIGH=§c极高
-profile.ULTRA=§4§l极致
-profile.COMPLEMENTARY=§4§l§n§oLively-Magic 灵动魔法
-profile.comment=配置档以最佳的视觉/性能比来调整性能设置。§e[*]§r 建议使用这些预设配置档，除非你知道自己在做什么。§e[*]§r 所有受影响的设置均可在"性能设置"菜单中找到。
+profile.POTATO=§aPotato
+profile.VERYLOW=§aVery Low
+profile.LOW=§aLow
+profile.MEDIUM=§aMedium
+profile.HIGH=§eHigh (Default)
+profile.VERYHIGH=§cVery High
+profile.ULTRA=§4§lUltra
+profile.COMPLEMENTARY=§4§l§n§oLively-Magic
+profile.comment=Profiles are optimized for the best visual/performance ratio. §e[*]§r It is recommended to use these pre-configured profiles unless you know what you are doing. §e[*]§r All affected settings can be found in the "Performance Settings" menu.
 
 #Information
-screen.INFORMATION=信息
-screen.INFORMATION.comment=此区域仅包含提供信息的按钮。
+screen.INFORMATION=Information
+screen.INFORMATION.comment=This area contains informational buttons only.
 
-option.info0=§b将鼠标悬停查看说明
+option.info0=§bHover over to view description
 value.info0.0=
-option.info0.comment=此区域仅包含提供信息的按钮。
+option.info0.comment=This area contains informational buttons only.
 
-option.info1=如何提高性能
+option.info1=How to Improve Performance
 value.info1.0=
-option.info1.comment=性能在Minecraft中是个复杂话题，受很多因素影响，但可以尝试这些：降低渲染距离，大多数设备建议设置在6-16之间。降低"配置档"着色器设置，这些已经过精心测试以达最佳视觉/性能比。
+option.info1.comment=Performance in Minecraft is a complex topic affected by many factors, but you can try these: lower the render distance, most devices are recommended to set it between 6-16. Lower the "Profile" shader settings, which have been carefully tested for optimal visual/performance ratio.
 
-option.info2=最佳设置是什么
+option.info2=What Are the Best Settings
 value.info2.0=
-option.info2.comment=最佳设置因人而异，但对大多数人来说默认设置已经接近最佳。默认设置经过多年社区评估和反馈打磨，同时高度重视视觉/性能比。你仍然可以自由调整并享受这个过程！
+option.info2.comment=The best settings vary per person, but for most people the defaults are close to optimal. The default settings have been refined through years of community evaluation and feedback, with a strong emphasis on visual/performance ratio. You can still freely adjust and enjoy the process!
 
-option.info3=配置档与视觉风格是什么
+option.info3=What Are Profiles and Visual Styles
 value.info3.0=
-option.info3.comment="配置档"设置会更改"性能设置"菜单中的设置，但不会影响任何偏好类设置。"视觉风格"会更改许多偏好设置中的"随风格"值，但对性能影响不大。
+option.info3.comment="Profile" settings change settings in the "Performance Settings" menu but do not affect any preference-type settings. "Visual Style" changes the "Follow Style" values of many preference settings, but has little impact on performance.
 
-option.info4=RP支持是什么
+option.info4=What is RP Support
 value.info4.0=
-option.info4.comment=RP支持选项决定光影包如何处理Minecraft中的不同方块。例如§b集成PBR+§r会将金块视为反光物体，而§elabPBR§r或§eseuspbr§r则需要安装资源包来告知光影。将RP支持设为§a基础§r会使除了水等少数例外之外没有方块是"特殊"的。
+option.info4.comment=The RP Support option determines how the shader pack handles different blocks in Minecraft. §bIntegrated PBR+§r treats gold blocks as reflective objects, while §elabPBR§r or §eseuspbr§r require a resource pack to inform the shader. Setting RP Support to §aBasic§r means no blocks are "special" except for a few exceptions like water.
 
-option.info5=黄色设置项是什么
+option.info5=What Are Yellow Settings
 value.info5.0=
-option.info5.comment=黄色名称的设置意味着它对性能有显著影响，尽管不在"性能设置"类别中。如果开启后显示红色文字，说明性能消耗非常高。
+option.info5.comment=Settings with yellow names have a significant impact on performance, even though they are not in the "Performance Settings" category. If red text appears when enabled, the performance cost is very high.
 
 option.info6=
 value.info6.0=
@@ -48,586 +48,591 @@ option.info7=
 value.info7.0=
 option.info7.comment=
 
-option.info8=制作组 · Lively Studio
+option.info8=Production Team · Lively Studio
 value.info8.0=
-option.info8.comment=「零」影制作组出品 · 灵动魔法 · 让每一束光都充满魔法
+option.info8.comment=Produced by 「Zero」 Studio · Lively-Magic · Let every ray of light be filled with magic
 
+
+#Style
+option.SHADER_STYLE=Visual Style
+option.SHADER_STYLE.comment=Determines the default visual style of the shader pack. §bFantasy§r: Complements Minecraft while retaining its unique visual elements. §e[*]§r Affected settings: Water Style, Cloud Style, Sun/Moon Style, Sun/Moon Angle, Aurora Style, Glowing Ores.
+value.SHADER_STYLE.1=§bFantasy
 
 #Screens
-screen.PERFORMANCE_SETTINGS=§e性能设置§r
-screen.PERFORMANCE_SETTINGS.comment=与性能直接相关的设置，会随不同配置档变化。
+screen.PERFORMANCE_SETTINGS=§ePerformance Settings§r
+screen.PERFORMANCE_SETTINGS.comment=Settings directly related to performance, which change with different profiles.
 
-screen.ATMOSPHERE_SETTINGS=大气
-screen.ATMOSPHERE_SETTINGS.comment=与大气相关的设置。
+screen.ATMOSPHERE_SETTINGS=Atmosphere
+screen.ATMOSPHERE_SETTINGS.comment=Settings related to atmosphere.
 
-screen.ATM_COLOR_SETTINGS=大气颜色倍数
-screen.ATM_COLOR_SETTINGS.comment=启用主要见于天空和雾中的大气颜色自定义。
+screen.ATM_COLOR_SETTINGS=Atmosphere Color Multipliers
+screen.ATM_COLOR_SETTINGS.comment=Enables customization of atmosphere colors primarily visible in the sky and fog.
 
-screen.MORNING_ATM_MULTS=日出/日落
-screen.NOON_ATM_MULTS=正午
-screen.NIGHT_ATM_MULTS=夜晚
-screen.RAIN_ATM_MULTS=雨天
-screen.NETHER_ATM_MULTS=地狱维度
-screen.END_ATM_MULTS=末地维度
+screen.MORNING_ATM_MULTS=Sunrise/Sunset
+screen.NOON_ATM_MULTS=Noon
+screen.NIGHT_ATM_MULTS=Night
+screen.RAIN_ATM_MULTS=Rainy
+screen.NETHER_ATM_MULTS=Nether
+screen.END_ATM_MULTS=End
 
-screen.CLOUD_SETTINGS=云层
-screen.CLOUD_SETTINGS.comment=与云层相关的设置。
+screen.CLOUD_SETTINGS=Clouds
+screen.CLOUD_SETTINGS.comment=Settings related to clouds.
 
-screen.CLOUD_COLOR_SETTINGS=云颜色
-screen.CLOUD_COLOR_SETTINGS.comment=更改云颜色的设置。
+screen.CLOUD_COLOR_SETTINGS=Cloud Colors
+screen.CLOUD_COLOR_SETTINGS.comment=Settings for changing cloud colors.
 
-screen.CLOUD_UNBOUND_SETTINGS=无界云设置
-screen.CLOUD_REIMAGINED_SETTINGS=幻想云设置
+screen.CLOUD_UNBOUND_SETTINGS=Unbound Cloud Settings
+screen.CLOUD_REIMAGINED_SETTINGS=Fantasy Cloud Settings
 
-screen.FOG_SETTINGS=雾
-screen.FOG_SETTINGS.comment=与各种雾类型相关的设置。
+screen.FOG_SETTINGS=Fog
+screen.FOG_SETTINGS.comment=Settings related to various fog types.
 
-screen.SUN_MOON_SETTINGS=太阳/月亮
-screen.SUN_MOON_SETTINGS.comment=与太阳和月亮相关的设置。
+screen.SUN_MOON_SETTINGS=Sun/Moon
+screen.SUN_MOON_SETTINGS.comment=Settings related to the sun and moon.
 
-screen.NETHER_SETTINGS=地狱维度
-screen.NETHER_SETTINGS.comment=与地狱维度相关的设置。
+screen.NETHER_SETTINGS=Nether
+screen.NETHER_SETTINGS.comment=Settings related to the Nether dimension.
 
-screen.END_SETTINGS=末地维度
-screen.END_SETTINGS.comment=与末地维度相关的设置。
+screen.END_SETTINGS=End
+screen.END_SETTINGS.comment=Settings related to the End dimension.
 
-screen.WEATHER_SETTINGS=雨/天气
-screen.WEATHER_SETTINGS.comment=与天气状况相关的设置。
+screen.WEATHER_SETTINGS=Rain/Weather
+screen.WEATHER_SETTINGS.comment=Settings related to weather conditions.
 
-screen.NORMAL_SETTINGS=法线凸起
-screen.NORMAL_SETTINGS.comment=控制方块表面的立体凹凸效果。参考Sundial光影的法线处理技术，核心参数集中于此。
+screen.NORMAL_SETTINGS=Normal Maps
+screen.NORMAL_SETTINGS.comment=Controls the 3D bump effect on block surfaces. Based on Sundial shader's normal mapping techniques, with core parameters centralized here.
 
-screen.CAMERA_SETTINGS=镜头
-screen.CAMERA_SETTINGS.comment=与视角和镜头相关的设置。
+screen.CAMERA_SETTINGS=Camera
+screen.CAMERA_SETTINGS.comment=Settings related to perspective and camera.
 
-screen.TONEMAP_SETTINGS=色彩平衡
-screen.TONEMAP_SETTINGS.comment=决定视觉效果色彩平衡的设置。
+screen.TONEMAP_SETTINGS=Color Balance
+screen.TONEMAP_SETTINGS.comment=Settings that determine the color balance of the visual output.
 
-screen.COLORGRADING_SETTINGS=色彩分级
-screen.COLORGRADING_SETTINGS.comment=混合最终色彩通道的设置。
+screen.COLORGRADING_SETTINGS=Color Grading
+screen.COLORGRADING_SETTINGS.comment=Settings for mixing final color channels.
 
-screen.WORLD_BLUR_SETTINGS=世界模糊
-screen.WORLD_BLUR_SETTINGS.comment=与高级世界模糊效果相关的设置。
+screen.WORLD_BLUR_SETTINGS=World Blur
+screen.WORLD_BLUR_SETTINGS.comment=Settings related to advanced world blur effects.
 
-screen.TAA_SETTINGS=时序滤波设置
-screen.TAA_SETTINGS.comment=决定时序抗锯齿行为的设置。
+screen.TAA_SETTINGS=Temporal Filtering Settings
+screen.TAA_SETTINGS.comment=Settings that determine temporal anti-aliasing behavior.
 
-screen.MATERIAL_SETTINGS=材质
-screen.MATERIAL_SETTINGS.comment=与Minecraft材质相关的设置。
+screen.MATERIAL_SETTINGS=Materials
+screen.MATERIAL_SETTINGS.comment=Settings related to Minecraft materials.
 
-screen.IPBR_SETTINGS=IPBR+材质
-screen.IPBR_SETTINGS.comment=与集成PBR+功能相关的设置。
+screen.IPBR_SETTINGS=IPBR+ Materials
+screen.IPBR_SETTINGS.comment=Settings related to integrated PBR+ features.
 
-screen.GLOWING_ORE_SETTINGS=发光矿石
-screen.GLOWING_ORE_SETTINGS.comment=调整矿石方块发光效果的设置。
+screen.GLOWING_ORE_SETTINGS=Glowing Ores
+screen.GLOWING_ORE_SETTINGS.comment=Settings for adjusting the glow effect of ore blocks.
 
-screen.GLOWING_STUFF_SETTINGS=发光物体
-screen.GLOWING_STUFF_SETTINGS.comment=调整杂项方块发光效果的设置。
+screen.GLOWING_STUFF_SETTINGS=Glowing Objects
+screen.GLOWING_STUFF_SETTINGS.comment=Settings for adjusting the glow effect of miscellaneous blocks.
 
-screen.OTHER_IPBR_SETTINGS=其他IPBR+功能
-screen.OTHER_IPBR_SETTINGS.comment=集成PBR+杂项设置。
+screen.OTHER_IPBR_SETTINGS=Other IPBR+ Features
+screen.OTHER_IPBR_SETTINGS.comment=Miscellaneous integrated PBR+ settings.
 
-screen.CUSTOM_PBR_SETTINGS=labPBR/seuspbr材质
-screen.CUSTOM_PBR_SETTINGS.comment=与labPBR/seuspbr功能相关的设置。
+screen.CUSTOM_PBR_SETTINGS=labPBR/seuspbr Materials
+screen.CUSTOM_PBR_SETTINGS.comment=Settings related to labPBR/seuspbr features.
 
-screen.LIGHTING_SETTINGS=光照
-screen.LIGHTING_SETTINGS.comment=与光照相关的设置。
+screen.LIGHTING_SETTINGS=Lighting
+screen.LIGHTING_SETTINGS.comment=Settings related to lighting.
 
-screen.LIGHT_COLOR_SETTINGS=光照颜色倍数
-screen.LIGHT_COLOR_SETTINGS.comment=启用在所有表面可见的光照颜色自定义。
+screen.LIGHT_COLOR_SETTINGS=Light Color Multipliers
+screen.LIGHT_COLOR_SETTINGS.comment=Enables customization of light colors visible on all surfaces.
 
-screen.MORNING_LIGHT_MULTS=日出/日落
-screen.NOON_LIGHT_MULTS=正午
-screen.NIGHT_LIGHT_MULTS=夜晚
-screen.RAIN_LIGHT_MULTS=雨天
-screen.NETHER_LIGHT_MULTS=地狱维度
-screen.END_LIGHT_MULTS=末地维度
+screen.MORNING_LIGHT_MULTS=Sunrise/Sunset
+screen.NOON_LIGHT_MULTS=Noon
+screen.NIGHT_LIGHT_MULTS=Night
+screen.RAIN_LIGHT_MULTS=Rainy
+screen.NETHER_LIGHT_MULTS=Nether
+screen.END_LIGHT_MULTS=End
 
-screen.BLOCKLIGHT_SETTINGS=方块光照§e[*]§r
-screen.BLOCKLIGHT_SETTINGS.comment=调整光源方块发出光照的设置。§e[*]§r 红/绿/蓝颜色设置在启用高级颜色追踪时不影响大部分光源。
+screen.BLOCKLIGHT_SETTINGS=Block Light§e[*]§r
+screen.BLOCKLIGHT_SETTINGS.comment=Settings for adjusting the light emitted by light source blocks. §e[*]§r Red/Green/Blue color settings do not affect most light sources when Advanced Color Tracking is enabled.
 
-screen.MOON_PHASE_INF_SETTINGS=月相影响
-screen.MOON_PHASE_INF_SETTINGS.comment=决定不同月相如何影响夜间光照的设置。
+screen.MOON_PHASE_INF_SETTINGS=Moon Phase Influence
+screen.MOON_PHASE_INF_SETTINGS.comment=Settings that determine how different moon phases affect nighttime lighting.
 
-screen.ACT_FEATURES_SETTINGS=ACT专属功能§e[*]§r
-screen.ACT_FEATURES_SETTINGS.comment=高级颜色追踪专属功能。§e[*]§r 仅在性能设置中开启高级颜色追踪且系统支持时生效。
+screen.ACT_FEATURES_SETTINGS=ACT Exclusive Features§e[*]§r
+screen.ACT_FEATURES_SETTINGS.comment=Advanced Color Tracking exclusive features. §e[*]§r Only active when Advanced Color Tracking is enabled in Performance Settings and the system supports it.
 
-screen.PIXELATED_LIGHTING_SETTINGS=像素化光照
-screen.PIXELATED_LIGHTING_SETTINGS.comment=使某些光照效果像素化的设置。
+screen.PIXELATED_LIGHTING_SETTINGS=Pixelated Lighting
+screen.PIXELATED_LIGHTING_SETTINGS.comment=Settings that pixelate certain lighting effects.
 
-screen.WATER_SETTINGS=水面
-screen.WATER_SETTINGS.comment=与水面相关的设置。
+screen.WATER_SETTINGS=Water
+screen.WATER_SETTINGS.comment=Settings related to water.
 
-screen.WATER_COLOR_SETTINGS=水面颜色
+screen.WATER_COLOR_SETTINGS=Water Color
 
-screen.UNDERWATER_COLOR_SETTINGS=水下颜色
+screen.UNDERWATER_COLOR_SETTINGS=Underwater Color
 
-screen.WATER_WAVE_SETTINGS=水面法线波动§e[*]§r
-screen.WATER_WAVE_SETTINGS.comment=自定义水面方向波浪(法线)的设置。§e[*]§r 仅水面风格设为"幻想+波浪"或"无界"时生效。
+screen.WATER_WAVE_SETTINGS=Water Normal Waves§e[*]§r
+screen.WATER_WAVE_SETTINGS.comment=Customize water directional wave (normal) settings. §e[*]§r Only effective when Water Style is set to "Fantasy+Waves" or "Unbound".
 
-screen.WAVING_SETTINGS=动态纹理
-screen.WAVING_SETTINGS.comment=与动态纹理相关的设置。
+screen.WAVING_SETTINGS=Waving
+screen.WAVING_SETTINGS.comment=Settings related to waving animations.
 
-screen.OTHER_SETTINGS=其他
-screen.OTHER_SETTINGS.comment=不属于任何其他类别的设置。
+screen.OTHER_SETTINGS=Other
+screen.OTHER_SETTINGS.comment=Settings that do not belong to any other category.
 
-screen.SELECT_OUTLINE_SETTINGS=选择框描边
-screen.SELECT_OUTLINE_SETTINGS.comment=更改方块选择框描边的设置。
+screen.SELECT_OUTLINE_SETTINGS=Selection Outline
+screen.SELECT_OUTLINE_SETTINGS.comment=Settings for changing the block selection outline.
 
-screen.WORLD_OUTLINE_SETTINGS=世界描边
-screen.WORLD_OUTLINE_SETTINGS.comment=可选描边效果的相关设置。
+screen.WORLD_OUTLINE_SETTINGS=World Outline
+screen.WORLD_OUTLINE_SETTINGS.comment=Settings related to optional outline effects.
 
 #Settings
-option.RP_MODE=RP支持
-option.RP_MODE.comment=更改多项内部计算以决定不同方块和材质的渲染方式。§b集成PBR+§r: 计算型PBR和额外特效，强烈推荐。§a基础§r: 无PBR或额外特效。§elabPBR/seuspbr§r: 使用所需PBR资源包的材质。
-value.RP_MODE.0=§a基础
-value.RP_MODE.1=§b集成PBR+
-value.RP_MODE.2=§eseuspbr(需资源包)
-value.RP_MODE.3=§elabPBR(需资源包)
+option.RP_MODE=RP Support
+option.RP_MODE.comment=Changes multiple internal calculations to determine how different blocks and materials are rendered. §bIntegrated PBR+§r: Computational PBR and extra effects, highly recommended. §aBasic§r: No PBR or extra effects. §elabPBR/seuspbr§r: Materials using a required PBR resource pack.
+value.RP_MODE.0=§aBasic
+value.RP_MODE.1=§bIntegrated PBR+
+value.RP_MODE.2=§eseuspbr (Requires RP)
+value.RP_MODE.3=§elabPBR (Requires RP)
 
-option.COLOR_LIGHT_MODE=模拟色彩光照 §c[苹果设备]§r
-option.COLOR_LIGHT_MODE.comment=§c苹果设备不支持原生彩色光源，此为替代技术。§r§a真实色彩§r: 发光矿石+自发光方块+高亮发射模拟有色光照环境。§e增强色彩§r: 额外叠加时段光色曲线，模拟冷暖色温变化，魔法风格推荐。§c关闭§r: 不应用任何色彩模拟。
-value.COLOR_LIGHT_MODE.0=§c关闭
-value.COLOR_LIGHT_MODE.1=§a真实色彩
-value.COLOR_LIGHT_MODE.2=§e增强色彩
+option.COLOR_LIGHT_MODE=Simulated Color Lighting §c[Apple Devices]§r
+option.COLOR_LIGHT_MODE.comment=§cApple devices do not support native colored light sources; this is an alternative technology. §r§aTrue Color§r: Glowing ores + emissive blocks + highlighted emission simulate a colored lighting environment. §eEnhanced Color§r: Additionally overlays time-of-day light color curves to simulate warm/cool color temperature shifts. §cOff§r: No color simulation applied.
+value.COLOR_LIGHT_MODE.0=§cOff
+value.COLOR_LIGHT_MODE.1=§aTrue Color
+value.COLOR_LIGHT_MODE.2=§eEnhanced Color
 
-option.WATER_REFLECT_QUALITY=水面反射质量
-option.WATER_REFLECT_QUALITY.comment=调整半透明物体上反射的视觉质量。§c中§r: 屏幕空间光线追踪反射。§e土豆§r: 更快速的方法替代，某些情况可能不准确。§a关闭§r: 无反射。
-value.WATER_REFLECT_QUALITY.-1=§a关闭
-value.WATER_REFLECT_QUALITY.0=§a仅天空
-value.WATER_REFLECT_QUALITY.1=§e土豆
-value.WATER_REFLECT_QUALITY.2=§c中
+option.WATER_REFLECT_QUALITY=Water Reflection Quality
+option.WATER_REFLECT_QUALITY.comment=Adjusts the visual quality of reflections on translucent objects. §cMedium§r: Screen-space ray-traced reflections. §ePotato§r: A faster alternative method, may be inaccurate in some cases. §aOff§r: No reflections.
+value.WATER_REFLECT_QUALITY.-1=§aOff
+value.WATER_REFLECT_QUALITY.0=§aSky Only
+value.WATER_REFLECT_QUALITY.1=§ePotato
+value.WATER_REFLECT_QUALITY.2=§cMedium
 
-option.BLOCK_REFLECT_QUALITY=方块反射质量§e[*]§r
-option.BLOCK_REFLECT_QUALITY.comment=调整固体材质上反射的视觉质量。§c高§r: 日月高光+高级镜面反射。§e低§r: 仅日月高光。§e[*]§r RP支持须设为非基础才有镜面反射。
-value.BLOCK_REFLECT_QUALITY.0=§a关闭
-value.BLOCK_REFLECT_QUALITY.1=§e低
-value.BLOCK_REFLECT_QUALITY.3=§c高
+option.BLOCK_REFLECT_QUALITY=Block Reflection Quality§e[*]§r
+option.BLOCK_REFLECT_QUALITY.comment=Adjusts the visual quality of reflections on solid materials. §cHigh§r: Sun/Moon specular highlights + advanced specular reflections. §eLow§r: Sun/Moon specular highlights only. §e[*]§r RP Support must be set to non-basic for specular reflections.
+value.BLOCK_REFLECT_QUALITY.0=§aOff
+value.BLOCK_REFLECT_QUALITY.1=§eLow
+value.BLOCK_REFLECT_QUALITY.3=§cHigh
 
-option.SHADOW_QUALITY=实时阴影
-option.SHADOW_QUALITY.comment=调整阴影质量，每级减少噪点伪影。§e低§r和§e极低§r使用更简过滤，§e极低§r也禁用彩色阴影，§a关闭§r完全禁用阴影和光束。§e[*]§r 禁用时序滤波或启用像素化阴影时内部限制为"低"。
-value.SHADOW_QUALITY.-1=§a关闭
-value.SHADOW_QUALITY.0=§e极低
-value.SHADOW_QUALITY.1=§e低
-value.SHADOW_QUALITY.2=§e中
-value.SHADOW_QUALITY.3=§c高
-value.SHADOW_QUALITY.4=§c极高
-value.SHADOW_QUALITY.5=§4§l极致
+option.SHADOW_QUALITY=Real-Time Shadows
+option.SHADOW_QUALITY.comment=Adjusts shadow quality, reducing noise artifacts at each level. §eLow§r and §eVery Low§r use simpler filtering, §eVery Low§r also disables colored shadows, §aOff§r completely disables shadows and light shafts. §e[*]§r Internally limited to "Low" when temporal filtering is disabled or pixelated shadows are enabled.
+value.SHADOW_QUALITY.-1=§aOff
+value.SHADOW_QUALITY.0=§eVery Low
+value.SHADOW_QUALITY.1=§eLow
+value.SHADOW_QUALITY.2=§eMedium
+value.SHADOW_QUALITY.3=§cHigh
+value.SHADOW_QUALITY.4=§cVery High
+value.SHADOW_QUALITY.5=§4§lUltra
 
-option.LIGHTSHAFT_QUALI_DEFINE=光束质量§e[*]§r
-option.LIGHTSHAFT_QUALI_DEFINE.comment=调整光束质量，每级减少噪点。§e[*]§r "实时阴影"须非关闭才能用光束。§e[*]§r 也控制末地光束质量，"关闭"被视为"低"。
-value.LIGHTSHAFT_QUALI_DEFINE.0=§a关闭
-value.LIGHTSHAFT_QUALI_DEFINE.1=§e低
-value.LIGHTSHAFT_QUALI_DEFINE.2=§e中
-value.LIGHTSHAFT_QUALI_DEFINE.3=§c高
-value.LIGHTSHAFT_QUALI_DEFINE.4=§4§l极高
+option.LIGHTSHAFT_QUALI_DEFINE=Light Shaft Quality§e[*]§r
+option.LIGHTSHAFT_QUALI_DEFINE.comment=Adjusts light shaft quality, reducing noise at each level. §e[*]§r "Real-Time Shadows" must be non-off for light shafts to work. §e[*]§r Also controls End light shaft quality; "Off" is treated as "Low".
+value.LIGHTSHAFT_QUALI_DEFINE.0=§aOff
+value.LIGHTSHAFT_QUALI_DEFINE.1=§eLow
+value.LIGHTSHAFT_QUALI_DEFINE.2=§eMedium
+value.LIGHTSHAFT_QUALI_DEFINE.3=§cHigh
+value.LIGHTSHAFT_QUALI_DEFINE.4=§4§lVery High
 
-option.shadowDistance=阴影距离
-option.shadowDistance.comment=调整玩家周围渲染实时阴影的距离。§c[-]§r 较低值可能导致过多光束泄漏。
-value.shadowDistance.64.0=§a4区块§c[-]
-value.shadowDistance.80.0=§a5区块§c[-]
-value.shadowDistance.96.0=§a6区块§c[-]
-value.shadowDistance.112.0=§a7区块§c[-]
-value.shadowDistance.128.0=§a8区块
-value.shadowDistance.160.0=§e10区块
-value.shadowDistance.192.0=§e12区块
-value.shadowDistance.224.0=§e14区块
-value.shadowDistance.256.0=§c16区块
-value.shadowDistance.320.0=§c20区块
-value.shadowDistance.384.0=§4§l24区块
-value.shadowDistance.512.0=§4§l32区块
-value.shadowDistance.768.0=§4§l§n§o48区块
-value.shadowDistance.1024.0=§4§k-§r§4§l§n§o64区块§r§4§k-
+option.shadowDistance=Shadow Distance
+option.shadowDistance.comment=Adjusts the distance around the player for rendering real-time shadows. §c[-]§r Lower values may cause excessive light shaft leakage.
+value.shadowDistance.64.0=§a4 Chunks§c[-]
+value.shadowDistance.80.0=§a5 Chunks§c[-]
+value.shadowDistance.96.0=§a6 Chunks§c[-]
+value.shadowDistance.112.0=§a7 Chunks§c[-]
+value.shadowDistance.128.0=§a8 Chunks
+value.shadowDistance.160.0=§e10 Chunks
+value.shadowDistance.192.0=§e12 Chunks
+value.shadowDistance.224.0=§e14 Chunks
+value.shadowDistance.256.0=§c16 Chunks
+value.shadowDistance.320.0=§c20 Chunks
+value.shadowDistance.384.0=§4§l24 Chunks
+value.shadowDistance.512.0=§4§l32 Chunks
+value.shadowDistance.768.0=§4§l§n§o48 Chunks
+value.shadowDistance.1024.0=§4§k-§r§4§l§n§o64 Chunks§r§4§k-
 
-option.ENTITY_SHADOW=实体阴影
-option.ENTITY_SHADOW.comment=启用实体和方块实体投射的阴影。"常规实体"包括动物和怪物，"全部"还包括箱子等方块实体。§c[-]§r 实体阴影对性能影响远超预期，某些情况消耗超50%帧数。
-value.ENTITY_SHADOW.-1=§a关闭
-value.ENTITY_SHADOW.1=§c常规实体
-value.ENTITY_SHADOW.2=§4§k-§r§4§l§n§o全部§r§4§k- §r§c[-]
+option.ENTITY_SHADOW=Entity Shadows
+option.ENTITY_SHADOW.comment=Enables shadows cast by entities and block entities. "Normal Entities" includes animals and monsters, "All" also includes block entities like chests. §c[-]§r Entity shadows affect performance far more than expected, in some cases consuming over 50% of FPS.
+value.ENTITY_SHADOW.-1=§aOff
+value.ENTITY_SHADOW.1=§cNormal Entities
+value.ENTITY_SHADOW.2=§4§k-§r§4§l§n§oAll§r§4§k- §r§c[-]
 
-option.DETAIL_QUALITY=细节质量
-option.DETAIL_QUALITY.comment=调整多项影响性能的小功能：水面材质、TAA、光照微调、夜空星云、地狱风暴、天空反射、水坑精度、摆动效果、动态模糊。
-value.DETAIL_QUALITY.0=§a土豆机
-value.DETAIL_QUALITY.2=§e中
-value.DETAIL_QUALITY.3=§c高
+option.DETAIL_QUALITY=Detail Quality
+option.DETAIL_QUALITY.comment=Adjusts multiple small features that affect performance: water materials, TAA, lighting tweaks, night nebulae, Nether storms, sky reflections, puddle precision, waving effects, motion blur.
+value.DETAIL_QUALITY.0=§aPotato
+value.DETAIL_QUALITY.2=§eMedium
+value.DETAIL_QUALITY.3=§cHigh
 
-option.CLOUD_QUALITY=云层质量
-option.CLOUD_QUALITY.comment=调整幻想/无界云层风格的光照、细节和采样质量。§e[*]§r 仅"幻想"或"无界"云层风格时有效。
-value.CLOUD_QUALITY.0=§a关闭
-value.CLOUD_QUALITY.1=§a低
-value.CLOUD_QUALITY.2=§e中
-value.CLOUD_QUALITY.3=§c高
+option.CLOUD_QUALITY=Cloud Quality
+option.CLOUD_QUALITY.comment=Adjusts the lighting, detail, and sampling quality of Fantasy/Unbound cloud styles. §e[*]§r Only effective when Cloud Style is set to "Fantasy" or "Unbound".
+value.CLOUD_QUALITY.0=§aOff
+value.CLOUD_QUALITY.1=§aLow
+value.CLOUD_QUALITY.2=§eMedium
+value.CLOUD_QUALITY.3=§cHigh
 
-option.FXAA_DEFINE=抗锯齿(FXAA)
-option.FXAA_DEFINE.comment=启用快速近似抗锯齿(FXAA)，产生更平滑的图像。
-value.FXAA_DEFINE.-1=§a关闭
-value.FXAA_DEFINE.1=§e开启
+option.FXAA_DEFINE=Anti-aliasing (FXAA)
+option.FXAA_DEFINE.comment=Enables Fast Approximate Anti-Aliasing (FXAA) for smoother images.
+value.FXAA_DEFINE.-1=§aOff
+value.FXAA_DEFINE.1=§eOn
 
-option.SSAO_QUALI_DEFINE=环境光遮蔽(SSAO)质量
-option.SSAO_QUALI_DEFINE.comment=调整SSAO质量，为场景边缘添加额外环境阴影。每级减少SSAO噪点。
-value.SSAO_QUALI_DEFINE.0=§a关闭
-value.SSAO_QUALI_DEFINE.2=§e中
-value.SSAO_QUALI_DEFINE.3=§c高
+option.SSAO_QUALI_DEFINE=Ambient Occlusion (SSAO) Quality
+option.SSAO_QUALI_DEFINE.comment=Adjusts SSAO quality, adding extra ambient shadows to scene edges. Each level reduces SSAO noise.
+value.SSAO_QUALI_DEFINE.0=§aOff
+value.SSAO_QUALI_DEFINE.2=§eMedium
+value.SSAO_QUALI_DEFINE.3=§cHigh
 
-option.ANISOTROPIC_FILTER=纹理过滤
-option.ANISOTROPIC_FILTER.comment=使用各向异性过滤提高mipmap纹理质量。§e[*]§r 确保视频设置中"Mipmap级别"设为最大(4)。
-value.ANISOTROPIC_FILTER.0=§a关闭
+option.ANISOTROPIC_FILTER=Texture Filtering
+option.ANISOTROPIC_FILTER.comment=Uses anisotropic filtering to improve mipmap texture quality. §e[*]§r Ensure "Mipmap Level" in Video Settings is set to maximum (4).
+value.ANISOTROPIC_FILTER.0=§aOff
 value.ANISOTROPIC_FILTER.4=§e4x
 value.ANISOTROPIC_FILTER.8=§e8x
 value.ANISOTROPIC_FILTER.16=§4§l16x
 
-option.COLORED_LIGHTING=高级颜色追踪§e[*]§r
-option.COLORED_LIGHTING.comment=使用体素化和填充光照为方块光添加颜色，同时引入新光源。§e[*]§r 仅Iris和支持平台有效。§e[*]§r "实时阴影"关闭则禁用。§a[+]§r 高级颜色追踪还会启用其他功能，可在"其他→ACT功能"菜单中单独开关。§c[-]§r 高区块值对性能影响远超预期，每级可能消耗前级两倍以上性能。§c[-]§r 彩色光照处理非完整/模组方块时可能产生颜色泄漏。
-value.COLORED_LIGHTING.0=§a关闭
-value.COLORED_LIGHTING.128=§c4区块
-value.COLORED_LIGHTING.192=§c6区块
-value.COLORED_LIGHTING.256=§4§l8区块
-value.COLORED_LIGHTING.384=§4§l12区块
-value.COLORED_LIGHTING.512=§4§l§n§o16区块
-value.COLORED_LIGHTING.768=§4§l§n§o24区块 §r§c[-]
-value.COLORED_LIGHTING.1024=§4§k-§r§4§l§n§o32区块§r§4§k- §r§c[-]
+option.COLORED_LIGHTING=Advanced Color Tracking§e[*]§r
+option.COLORED_LIGHTING.comment=Uses voxelization and fill lighting to add color to block light, while also introducing new light sources. §e[*]§r Only effective on Iris and supported platforms. §e[*]§r Disabled when "Real-Time Shadows" is off. §a[+]§r Advanced Color Tracking also enables other features that can be toggled individually in "Other → ACT Features" menu. §c[-]§r Higher chunk values affect performance far more than expected, each level may consume more than double the performance of the previous. §c[-]§r Colored lighting may produce color leakage when processing non-full/modded blocks.
+value.COLORED_LIGHTING.0=§aOff
+value.COLORED_LIGHTING.128=§c4 Chunks
+value.COLORED_LIGHTING.192=§c6 Chunks
+value.COLORED_LIGHTING.256=§4§l8 Chunks
+value.COLORED_LIGHTING.384=§4§l12 Chunks
+value.COLORED_LIGHTING.512=§4§l§n§o16 Chunks
+value.COLORED_LIGHTING.768=§4§l§n§o24 Chunks §r§c[-]
+value.COLORED_LIGHTING.1024=§4§k-§r§4§l§n§o32 Chunks§r§4§k- §r§c[-]
 
-option.WORLD_SPACE_REFLECTIONS=世界空间反射§e[*]§r
-option.WORLD_SPACE_REFLECTIONS.comment=在世界空间而非屏幕空间计算反射。§e[*]§r 仅高级颜色追踪开启且系统支持时有效。§e[*]§r 最大距离取决于高级颜色追踪距离，技术原因内部限制16区块。§c[-]§r 高高级颜色追踪距离时严重影响性能。§c[-]§r 可能与模组或资源包出现问题。
-value.WORLD_SPACE_REFLECTIONS.-1=§a关闭
+option.WORLD_SPACE_REFLECTIONS=World Space Reflections§e[*]§r
+option.WORLD_SPACE_REFLECTIONS.comment=Calculates reflections in world space rather than screen space. §e[*]§r Only effective when Advanced Color Tracking is enabled and the system supports it. §e[*]§r Maximum distance depends on Advanced Color Tracking distance, internally limited to 16 chunks for technical reasons. §c[-]§r Severely impacts performance at high Advanced Color Tracking distances. §c[-]§r May have issues with mods or resource packs.
+value.WORLD_SPACE_REFLECTIONS.-1=§aOff
 value.WORLD_SPACE_REFLECTIONS.1=§4§l§n§oON
 
-option.WORLD_SPACE_REF_MODE=WSR模式§e[*]§r
-option.WORLD_SPACE_REF_MODE.comment=决定世界空间反射的运行模式。§e[*]§r "仅WSR"模式仅显示世界空间反射以消除屏幕空间反射伪影。"WSR+SSR"模式能获取更多反射细节，因为SSR可访问屏幕上所有细节不受方块或距离限制。
-value.WORLD_SPACE_REF_MODE.1=仅WSR
+option.WORLD_SPACE_REF_MODE=WSR Mode§e[*]§r
+option.WORLD_SPACE_REF_MODE.comment=Determines the operating mode of world space reflections. §e[*]§r "WSR Only" mode only shows world space reflections to eliminate screen space reflection artifacts. "WSR+SSR" mode captures more reflection detail because SSR can access all on-screen details without block or distance limitations.
+value.WORLD_SPACE_REF_MODE.1=WSR Only
 value.WORLD_SPACE_REF_MODE.2=WSR+SSR
 
-option.WORLD_SPACE_PLAYER_REF=玩家反射
-option.WORLD_SPACE_PLAYER_REF.comment=使当前玩家模型在世界空间反射中可见。
-value.WORLD_SPACE_PLAYER_REF.-1=关闭
-value.WORLD_SPACE_PLAYER_REF.1=开启
+option.WORLD_SPACE_PLAYER_REF=Player Reflection
+option.WORLD_SPACE_PLAYER_REF.comment=Makes the current player model visible in world space reflections.
+value.WORLD_SPACE_PLAYER_REF.-1=Off
+value.WORLD_SPACE_PLAYER_REF.1=On
 
-option.SSAO_I=SSAO强度
-option.SSAO_I.comment=决定SSAO强度，为场景边缘添加额外环境阴影。§e[*]§r SSAO在"性能设置"中禁用则无效。
-value.SSAO_I.0=关闭
+option.SSAO_I=SSAO Intensity
+option.SSAO_I.comment=Determines SSAO intensity, adding extra ambient shadows to scene edges. §e[*]§r Ineffective when SSAO is disabled in "Performance Settings".
+value.SSAO_I.0=Off
 
-option.VANILLAAO_I=原版AO强度
-option.VANILLAAO_I.comment=决定Minecraft原版环境光遮蔽强度，为场景边缘添加额外环境阴影。
-value.VANILLAAO_I.0=关闭
+option.VANILLAAO_I=Vanilla AO Intensity
+option.VANILLAAO_I.comment=Determines the intensity of Minecraft's vanilla ambient occlusion, adding extra ambient shadows to scene edges.
+value.VANILLAAO_I.0=Off
 
-option.BORDER_FOG=边界雾
-option.BORDER_FOG.comment=加载世界边缘的浓雾以隐藏区块边界。§e[*]§r 渲染距离低于8区块时建议禁用。
+option.BORDER_FOG=Border Fog
+option.BORDER_FOG.comment=Dense fog at the edge of the loaded world to hide chunk boundaries. §e[*]§r Recommended to disable when render distance is below 8 chunks.
 
-option.ATM_FOG_MULT=大气雾
-option.ATM_FOG_MULT.comment=调整基于高度的大气雾强度。
-value.ATM_FOG_MULT.0.50=极淡
-value.ATM_FOG_MULT.0.65=淡
-value.ATM_FOG_MULT.0.80=普通
-value.ATM_FOG_MULT.0.95=浓
+option.ATM_FOG_MULT=Atmosphere Fog
+option.ATM_FOG_MULT.comment=Adjusts the intensity of height-based atmospheric fog.
+value.ATM_FOG_MULT.0.50=Very Light
+value.ATM_FOG_MULT.0.65=Light
+value.ATM_FOG_MULT.0.80=Normal
+value.ATM_FOG_MULT.0.95=Dense
 
-option.ATM_FOG_DISTANCE=大气雾距离
-option.ATM_FOG_DISTANCE.comment=调整大气雾开始出现的相机距离。§e[*]§r 注意雾距也会根据视频设置中的渲染距离自动调整。
+option.ATM_FOG_DISTANCE=Atmosphere Fog Distance
+option.ATM_FOG_DISTANCE.comment=Adjusts the camera distance at which atmospheric fog begins to appear. §e[*]§r Note that fog distance is also automatically adjusted based on the render distance in Video Settings.
 
-option.ATM_FOG_ALTITUDE=大气雾高度
-option.ATM_FOG_ALTITUDE.comment=决定大气雾最显著出现的高度。
+option.ATM_FOG_ALTITUDE=Atmosphere Fog Height
+option.ATM_FOG_ALTITUDE.comment=Determines the height at which atmospheric fog is most prominent.
 
-option.CAVE_FOG=洞穴雾
-option.CAVE_FOG.comment=在深层地下区域启用额外雾效。
+option.CAVE_FOG=Cave Fog
+option.CAVE_FOG.comment=Enables additional fog effects in deep underground areas.
 
-option.LIGHTSHAFT_BEHAVIOUR=光束模式
-option.LIGHTSHAFT_BEHAVIOUR.comment=决定光束行为。§a[+]§r 场景感知光束自动在常规和极致模式间切换以提供最佳效果。§c[-]§r 极致模式不推荐用于常规游戏，会严重影响性能。
-value.LIGHTSHAFT_BEHAVIOUR.0=关闭
-value.LIGHTSHAFT_BEHAVIOUR.1=场景感知§a[+]
-value.LIGHTSHAFT_BEHAVIOUR.2=常规
-value.LIGHTSHAFT_BEHAVIOUR.3=极致§c[-]
+option.LIGHTSHAFT_BEHAVIOUR=Light Shaft Behavior
+option.LIGHTSHAFT_BEHAVIOUR.comment=Determines light shaft behavior. §a[+]§r Scene-aware light shafts automatically switch between normal and extreme modes for the best effect. §c[-]§r Extreme mode is not recommended for regular gameplay and will severely impact performance.
+value.LIGHTSHAFT_BEHAVIOUR.0=Off
+value.LIGHTSHAFT_BEHAVIOUR.1=Scene-Aware§a[+]
+value.LIGHTSHAFT_BEHAVIOUR.2=Normal
+value.LIGHTSHAFT_BEHAVIOUR.3=Extreme§c[-]
 
-option.LIGHTSHAFT_SMOKE=§e光束烟雾§r
-option.LIGHTSHAFT_SMOKE.comment=为光束添加体积烟雾。§c[-]§r 会严重影响性能。
+option.LIGHTSHAFT_SMOKE=§eLight Shaft Smoke§r
+option.LIGHTSHAFT_SMOKE.comment=Adds volumetric smoke to light shafts. §c[-]§r Will severely impact performance.
 
-option.SPECIAL_PALE_GARDEN_LIGHTSHAFTS=苍白花园特殊光束
-option.SPECIAL_PALE_GARDEN_LIGHTSHAFTS.comment=使"苍白花园"群系中光束更加特别。
+option.SPECIAL_PALE_GARDEN_LIGHTSHAFTS=Pale Garden Special Light Shafts
+option.SPECIAL_PALE_GARDEN_LIGHTSHAFTS.comment=Makes light shafts more special in the "Pale Garden" biome.
 
-option.LIGHTSHAFT_DAY_I=白天光束倍数
-option.LIGHTSHAFT_NIGHT_I=夜晚光束倍数
-option.LIGHTSHAFT_RAIN_I=雨天光束倍数
+option.LIGHTSHAFT_DAY_I=Day Light Shaft Multiplier
+option.LIGHTSHAFT_NIGHT_I=Night Light Shaft Multiplier
+option.LIGHTSHAFT_RAIN_I=Rain Light Shaft Multiplier
 
-option.LIGHTSHAFT_SUNSET_SATURATION=日落光束颜色
-option.LIGHTSHAFT_SUNSET_SATURATION.comment=调整日出日落时光束颜色的额外饱和度。较高值偏红橙，较低值偏向黄色。
+option.LIGHTSHAFT_SUNSET_SATURATION=Sunset Light Shaft Color
+option.LIGHTSHAFT_SUNSET_SATURATION.comment=Adjusts the extra saturation of light shaft colors during sunrise/sunset. Higher values shift towards red-orange, lower values towards yellow.
 
-option.CLOUD_STYLE_DEFINE=云层风格
-option.CLOUD_STYLE_DEFINE.comment=决定云层风格。§e[*]§r "随风格"表示由"视觉风格"设置自动决定。§e[*]§r "原版"风格需在视频设置中启用云。
-value.CLOUD_STYLE_DEFINE.-1=随风格
-value.CLOUD_STYLE_DEFINE.0=关闭
-value.CLOUD_STYLE_DEFINE.1=幻想
-value.CLOUD_STYLE_DEFINE.3=无界
-value.CLOUD_STYLE_DEFINE.50=原版§e[*]
+option.CLOUD_STYLE_DEFINE=Cloud Style
+option.CLOUD_STYLE_DEFINE.comment=Determines the cloud style. §e[*]§r "Follow Style" means it is automatically determined by the "Visual Style" setting. §e[*]§r The "Vanilla" style requires clouds to be enabled in Video Settings.
+value.CLOUD_STYLE_DEFINE.-1=Follow Style
+value.CLOUD_STYLE_DEFINE.0=Off
+value.CLOUD_STYLE_DEFINE.1=Fantasy
+value.CLOUD_STYLE_DEFINE.3=Unbound
+value.CLOUD_STYLE_DEFINE.50=Vanilla§e[*]
 
-option.CLOUD_SHADOWS=云层阴影
-option.CLOUD_SHADOWS.comment=启用云层投射的阴影。§e[*]§r 仅"幻想"或"无界"云层风格有效。§e[*]§r 云层风格设为"无界"时云影随机生成。
+option.CLOUD_SHADOWS=Cloud Shadows
+option.CLOUD_SHADOWS.comment=Enables shadows cast by clouds. §e[*]§r Only effective for "Fantasy" or "Unbound" cloud styles. §e[*]§r Cloud shadows are randomly generated when Cloud Style is set to "Unbound".
 
-option.CLOUD_CLOSED_AREA_CHECK=室内无云
-option.CLOUD_CLOSED_AREA_CHECK.comment=进行额外检查移除封闭区域中的云层。§e[*]§r 仅"幻想"或"无界"云层风格有效。§e[*]§r "实时阴影"关闭则禁用。
+option.CLOUD_CLOSED_AREA_CHECK=Indoor No Clouds
+option.CLOUD_CLOSED_AREA_CHECK.comment=Performs additional checks to remove clouds in enclosed areas. §e[*]§r Only effective for "Fantasy" or "Unbound" cloud styles. §e[*]§r Disabled when "Real-Time Shadows" is off.
 
-option.CLOUD_ALT1=云层高度§e[*]§r
-option.CLOUD_ALT1.comment=决定云层出现的世界高度。§e[*]§r 可能根据维度设置和模组自动增减。§e[*]§r 仅"幻想"或"无界"云层风格有效。
+option.CLOUD_ALT1=Cloud Height§e[*]§r
+option.CLOUD_ALT1.comment=Determines the world height at which clouds appear. §e[*]§r May increase or decrease automatically based on dimension settings and mods. §e[*]§r Only effective for "Fantasy" or "Unbound" cloud styles.
 
-option.CLOUD_SPEED_MULT=云层速度
-option.CLOUD_SPEED_MULT.comment=决定云层移动速度。"与世界时间同步"使用Minecraft世界时间推进云位置，使同一服务器玩家看到一致。§e[*]§r 仅"幻想"或"无界"云层风格有效。
-value.CLOUD_SPEED_MULT.100=与世界时间同步
+option.CLOUD_SPEED_MULT=Cloud Speed
+option.CLOUD_SPEED_MULT.comment=Determines the speed of cloud movement. "Sync with World Time" uses the Minecraft world time to advance cloud positions, making them consistent for all players on the same server. §e[*]§r Only effective for "Fantasy" or "Unbound" cloud styles.
+value.CLOUD_SPEED_MULT.100=Sync with World Time
 
-option.CLOUD_R=云层红色倍数
-option.CLOUD_G=云层绿色倍数
-option.CLOUD_B=云层蓝色倍数
+option.CLOUD_R=Cloud Red Multiplier
+option.CLOUD_G=Cloud Green Multiplier
+option.CLOUD_B=Cloud Blue Multiplier
 
-option.CLOUD_UNBOUND_AMOUNT=云层数量
-option.CLOUD_UNBOUND_AMOUNT.comment=调整无界云的数量。
+option.CLOUD_UNBOUND_AMOUNT=Cloud Amount
+option.CLOUD_UNBOUND_AMOUNT.comment=Adjusts the number of unbound clouds.
 
-option.CLOUD_UNBOUND_SIZE_MULT=云块大小§c[-]§r
-option.CLOUD_UNBOUND_SIZE_MULT.comment=调整无界云的大小，较高值产生更小云块。§c[-]§r 更改此设置将禁用云同步功能。
+option.CLOUD_UNBOUND_SIZE_MULT=Cloud Size§c[-]§r
+option.CLOUD_UNBOUND_SIZE_MULT.comment=Adjusts the size of unbound clouds, higher values produce smaller cloud puffs. §c[-]§r Changing this setting will disable the cloud sync feature.
 
-option.CLOUD_UNBOUND_RAIN_ADD=雨天云层加成
-option.CLOUD_UNBOUND_RAIN_ADD.comment=调整雨/雪时云量的增加量。
+option.CLOUD_UNBOUND_RAIN_ADD=Rainy Cloud Addition
+option.CLOUD_UNBOUND_RAIN_ADD.comment=Adjusts the increase in cloud cover during rain/snow.
 prefix.CLOUD_UNBOUND_RAIN_ADD=+
 
-option.DOUBLE_REIM_CLOUDS=双层幻想云
-option.DOUBLE_REIM_CLOUDS.comment=启用第二层幻想云。§e[*]§r 仅"幻想"云层风格有效。
+option.DOUBLE_REIM_CLOUDS=Double Fantasy Clouds
+option.DOUBLE_REIM_CLOUDS.comment=Enables a second layer of fantasy clouds. §e[*]§r Only effective for "Fantasy" cloud style.
 
-option.CLOUD_ALT2=云层第二层高度
-option.CLOUD_ALT2.comment=决定第二层云出现的世界高度。§e[*]§r 仅在"双层幻想云"启用且使用"幻想"云层风格时生效。
+option.CLOUD_ALT2=Cloud Second Layer Height
+option.CLOUD_ALT2.comment=Determines the world height at which the second cloud layer appears. §e[*]§r Only effective when "Double Fantasy Clouds" is enabled and using "Fantasy" cloud style.
 
-option.NETHER_STORM=§e地狱风暴§r
-option.NETHER_STORM.comment=为地狱维度添加类似烟雾的体积效果。§c[-]§r 会影响性能。
+option.NETHER_STORM=§eNether Storm§r
+option.NETHER_STORM.comment=Adds a smoke-like volumetric effect to the Nether dimension. §c[-]§r Will affect performance.
 
-option.NETHER_STORM_I=地狱风暴不透明度
-option.NETHER_STORM_I.comment=调整地狱风暴的不透明度。
+option.NETHER_STORM_I=Nether Storm Opacity
+option.NETHER_STORM_I.comment=Adjusts the opacity of the Nether storm.
 
-option.NETHER_STORM_LOWER_ALT=地狱风暴低点高度
-option.NETHER_STORM_LOWER_ALT.comment=决定地狱风暴的下起始点。地狱风暴不会出现在此高度以下，紧邻上方最亮。
+option.NETHER_STORM_LOWER_ALT=Nether Storm Low Point Height
+option.NETHER_STORM_LOWER_ALT.comment=Determines the lower starting point of the Nether storm. The Nether storm does not appear below this height, and is brightest right above it.
 
-option.NETHER_STORM_HEIGHT=地狱风暴高度
-option.NETHER_STORM_HEIGHT.comment=决定地狱风暴形成的高度。降低此值会使地狱风暴聚集在低点高度附近。
+option.NETHER_STORM_HEIGHT=Nether Storm Height
+option.NETHER_STORM_HEIGHT.comment=Determines the height at which the Nether storm forms. Lowering this value causes the Nether storm to gather near the low point height.
 
-option.NETHER_VIEW_LIMIT=§e地狱视野§r
-option.NETHER_VIEW_LIMIT.comment=决定地狱中雾可见的最大距离。§c[-]§r 启用地狱风暴时增加此值可能影响性能。
-value.NETHER_VIEW_LIMIT.96.0=6区块
-value.NETHER_VIEW_LIMIT.112.0=7区块
-value.NETHER_VIEW_LIMIT.128.0=8区块
-value.NETHER_VIEW_LIMIT.160.0=10区块
-value.NETHER_VIEW_LIMIT.192.0=12区块
-value.NETHER_VIEW_LIMIT.224.0=14区块
-value.NETHER_VIEW_LIMIT.256.0=16区块
-value.NETHER_VIEW_LIMIT.320.0=20区块
-value.NETHER_VIEW_LIMIT.384.0=24区块
-value.NETHER_VIEW_LIMIT.512.0=32区块 §c[-]
-value.NETHER_VIEW_LIMIT.768.0=48区块 §c[-]
-value.NETHER_VIEW_LIMIT.1024.0=64区块 §c[-]
-value.NETHER_VIEW_LIMIT.99999.0=无限§c[-]
+option.NETHER_VIEW_LIMIT=§eNether Visibility§r
+option.NETHER_VIEW_LIMIT.comment=Determines the maximum distance of fog visibility in the Nether. §c[-]§r Increasing this value while the Nether storm is enabled may affect performance.
+value.NETHER_VIEW_LIMIT.96.0=6 Chunks
+value.NETHER_VIEW_LIMIT.112.0=7 Chunks
+value.NETHER_VIEW_LIMIT.128.0=8 Chunks
+value.NETHER_VIEW_LIMIT.160.0=10 Chunks
+value.NETHER_VIEW_LIMIT.192.0=12 Chunks
+value.NETHER_VIEW_LIMIT.224.0=14 Chunks
+value.NETHER_VIEW_LIMIT.256.0=16 Chunks
+value.NETHER_VIEW_LIMIT.320.0=20 Chunks
+value.NETHER_VIEW_LIMIT.384.0=24 Chunks
+value.NETHER_VIEW_LIMIT.512.0=32 Chunks §c[-]
+value.NETHER_VIEW_LIMIT.768.0=48 Chunks §c[-]
+value.NETHER_VIEW_LIMIT.1024.0=64 Chunks §c[-]
+value.NETHER_VIEW_LIMIT.99999.0=Infinite§c[-]
 
-option.NETHER_COLOR_MODE=颜色模式
-option.NETHER_COLOR_MODE.comment=决定地狱中氛围颜色的处理方式。恒定: 颜色不随群系变化。群系: 颜色随群系变化。群系(修正): 基于群系但重新平衡以适配默认视觉方向。
-value.NETHER_COLOR_MODE.3=群系(修正)
-value.NETHER_COLOR_MODE.2=群系
-value.NETHER_COLOR_MODE.0=恒定
+option.NETHER_COLOR_MODE=Color Mode
+option.NETHER_COLOR_MODE.comment=Determines how atmosphere colors are handled in the Nether. Constant: Colors do not change with biome. Biome: Colors change with biome. Biome (Corrected): Based on biome but rebalanced to fit the default visual direction.
+value.NETHER_COLOR_MODE.3=Biome (Corrected)
+value.NETHER_COLOR_MODE.2=Biome
+value.NETHER_COLOR_MODE.0=Constant
 
-option.END_BEAM_INTENSITY=末地光束强度
-option.END_BEAM_INTENSITY.comment=调整末地维度中可见光束的亮度。
+option.END_BEAM_INTENSITY=End Beam Intensity
+option.END_BEAM_INTENSITY.comment=Adjusts the brightness of visible beams in the End dimension.
 
-option.END_STAR_INTENSITY=末地星光强度
-option.END_STAR_INTENSITY.comment=调整末地维度中可见星星的亮度。
+option.END_STAR_INTENSITY=End Star Intensity
+option.END_STAR_INTENSITY.comment=Adjusts the brightness of visible stars in the End dimension.
 
-option.END_FLASHES=末地闪烁
-option.END_FLASHES.comment=启用Minecraft 1.21.9添加的末地闪光环境功能。天空闪烁强度与末地光束强度直接相关。
+option.END_FLASHES=End Flashes
+option.END_FLASHES.comment=Enables the End flash ambient feature added in Minecraft 1.21.9. Sky flash intensity is directly related to End beam intensity.
 
-option.END_BEAM_CENTER_ALT=末地光束中心高度
-option.END_BEAM_CENTER_ALT.comment=调整末地光束在世界Y轴上的中心高度。
+option.END_BEAM_CENTER_ALT=End Beam Center Height
+option.END_BEAM_CENTER_ALT.comment=Adjusts the center height of the End beam on the world Y-axis.
 
-option.END_BEAM_HEIGHT=末地光束高度
-option.END_BEAM_HEIGHT.comment=调整末地光束的物理高度。
+option.END_BEAM_HEIGHT=End Beam Height
+option.END_BEAM_HEIGHT.comment=Adjusts the physical height of the End beam.
 
-option.TM_EXPOSURE=全局亮度
-option.TM_EXPOSURE.comment=也称"色调映射曝光度"。调整整个图像的整体亮度。
+option.TM_EXPOSURE=Global Brightness
+option.TM_EXPOSURE.comment=Also known as "Tonemap Exposure". Adjusts the overall brightness of the entire image.
 
-option.TM_CONTRAST=全局对比度
-option.TM_CONTRAST.comment=调整暗色的暗度和亮色的亮度。
+option.TM_CONTRAST=Global Contrast
+option.TM_CONTRAST.comment=Adjusts the darkness of dark colors and the brightness of bright colors.
 
-option.T_SATURATION=饱和度
-option.T_SATURATION.comment=调整图像的整体色彩丰富度。
+option.T_SATURATION=Saturation
+option.T_SATURATION.comment=Adjusts the overall color richness of the image.
 
-option.T_VIBRANCE=淡色饱和
-option.T_VIBRANCE.comment=也称"活力"。调整图像色彩丰富度，已色彩丰富的像素受影响较小。
+option.T_VIBRANCE=Desaturated Color Vibrance
+option.T_VIBRANCE.comment=Also known as "Vibrance". Adjusts the color richness of the image, with already colorful pixels being less affected.
 
-option.TM_DARK_DESATURATION=暗部去饱和
-option.TM_DARK_DESATURATION.comment=调整应用于暗区的色彩减弱程度。
+option.TM_DARK_DESATURATION=Dark Desaturation
+option.TM_DARK_DESATURATION.comment=Adjusts the amount of color reduction applied to dark areas.
 
-option.TM_WHITE_PATH=白色可达性
-option.TM_WHITE_PATH.comment=调整亮色接近白色的难易程度。
+option.TM_WHITE_PATH=White Accessibility
+option.TM_WHITE_PATH.comment=Adjusts how easily bright colors approach white.
 
-option.COLORGRADING=§e色彩分级
-option.COLORGRADING.comment=启用自由混合最终色彩通道的设置。
-option.GR_RR=红→红
-option.GR_RG=红→绿
-option.GR_RB=红→蓝
-option.GR_RC=红色曲线
-option.GR_GR=绿→红
-option.GR_GG=绿→绿
-option.GR_GB=绿→蓝
-option.GR_GC=绿色曲线
-option.GR_BR=蓝→红
-option.GR_BG=蓝→绿
-option.GR_BB=蓝→蓝
-option.GR_BC=蓝色曲线
+option.COLORGRADING=§eColor Grading
+option.COLORGRADING.comment=Enables settings for freely mixing final color channels.
+option.GR_RR=Red → Red
+option.GR_RG=Red → Green
+option.GR_RB=Red → Blue
+option.GR_RC=Red Curve
+option.GR_GR=Green → Red
+option.GR_GG=Green → Green
+option.GR_GB=Green → Blue
+option.GR_GC=Green Curve
+option.GR_BR=Blue → Red
+option.GR_BG=Blue → Green
+option.GR_BB=Blue → Blue
+option.GR_BC=Blue Curve
 
-option.WATER_STYLE_DEFINE=水面风格
-option.WATER_STYLE_DEFINE.comment=决定水面风格。§e[*]§r "随风格"表示由"视觉风格"设置自动决定。
-value.WATER_STYLE_DEFINE.-1=随风格
-value.WATER_STYLE_DEFINE.1=幻想
-value.WATER_STYLE_DEFINE.2=幻想+波浪
-value.WATER_STYLE_DEFINE.3=无界
+option.WATER_STYLE_DEFINE=Water Style
+option.WATER_STYLE_DEFINE.comment=Determines the water style. §e[*]§r "Follow Style" means it is automatically determined by the "Visual Style" setting.
+value.WATER_STYLE_DEFINE.-1=Follow Style
+value.WATER_STYLE_DEFINE.1=Fantasy
+value.WATER_STYLE_DEFINE.2=Fantasy+Waves
+value.WATER_STYLE_DEFINE.3=Unbound
 
-option.WATER_CAUSTIC_STYLE_DEFINE=水面焦散风格
-option.WATER_CAUSTIC_STYLE_DEFINE.comment=决定水面阴影风格，即水面焦散。
-value.WATER_CAUSTIC_STYLE_DEFINE.-1=与水面相同
-value.WATER_CAUSTIC_STYLE_DEFINE.1=幻想
-value.WATER_CAUSTIC_STYLE_DEFINE.3=无界
+option.WATER_CAUSTIC_STYLE_DEFINE=Water Caustic Style
+option.WATER_CAUSTIC_STYLE_DEFINE.comment=Determines the water shadow style, i.e., water caustics.
+value.WATER_CAUSTIC_STYLE_DEFINE.-1=Same as Water
+value.WATER_CAUSTIC_STYLE_DEFINE.1=Fantasy
+value.WATER_CAUSTIC_STYLE_DEFINE.3=Unbound
 
-option.WATER_REFRACTION_INTENSITY=水面折射强度§e[*]§r
-option.WATER_REFRACTION_INTENSITY.comment=调整水面折射和水下扭曲的强度。§e[*]§r 仅细节质量设为"高"时完全生效，否则仅影响轻微水下扭曲。
+option.WATER_REFRACTION_INTENSITY=Water Refraction Intensity§e[*]§r
+option.WATER_REFRACTION_INTENSITY.comment=Adjusts the intensity of water refraction and underwater distortion. §e[*]§r Only fully effective when Detail Quality is set to "High", otherwise only affects slight underwater distortion.
 
-option.WATER_FOAM_I=水面泡沫强度
-option.WATER_FOAM_I.comment=决定水面边缘泡沫的不透明度。§e[*]§r 仅细节质量设为中或更高时有效。
+option.WATER_FOAM_I=Water Foam Intensity
+option.WATER_FOAM_I.comment=Determines the opacity of foam at the water's edge. §e[*]§r Only effective when Detail Quality is set to Medium or higher.
 
-option.WATER_ALPHA_MULT=水面不透明度
-option.WATER_ALPHA_MULT.comment=调整水面不透明度。§c[-]§r 极端值会破坏水面光照平衡。§e[*]§r 仅细节质量设为中或更高时有效。
+option.WATER_ALPHA_MULT=Water Opacity
+option.WATER_ALPHA_MULT.comment=Adjusts water opacity. §c[-]§r Extreme values will break water lighting balance. §e[*]§r Only effective when Detail Quality is set to Medium or higher.
 
-option.WATER_FOG_MULT=水面雾浓度
-option.WATER_FOG_MULT.comment=调整水面雾的远近。较高值使雾更近。§c[-]§r 极端值会破坏水面光照平衡。
+option.WATER_FOG_MULT=Water Fog Density
+option.WATER_FOG_MULT.comment=Adjusts the distance of water fog. Higher values make fog closer. §c[-]§r Extreme values will break water lighting balance.
 
-option.WATERCOLOR_R=水面红色
-option.WATERCOLOR_G=水面绿色
-option.WATERCOLOR_B=水面蓝色
+option.WATERCOLOR_R=Water Red
+option.WATERCOLOR_G=Water Green
+option.WATERCOLOR_B=Water Blue
 
-option.WATERCOLOR_MODE=颜色模式
-option.WATERCOLOR_MODE.comment=决定水面颜色的处理方式。恒定: 颜色不随群系变化。群系: 颜色随群系变化。群系(限制): 基于群系但防止某些群系表面颜色异常。§e[*]§r Minecraft 1.13以下版本无法正常工作。
-value.WATERCOLOR_MODE.3=群系(限制)
-value.WATERCOLOR_MODE.2=群系
-value.WATERCOLOR_MODE.0=恒定
+option.WATERCOLOR_MODE=Color Mode
+option.WATERCOLOR_MODE.comment=Determines how water color is handled. Constant: Color does not change with biome. Biome: Color changes with biome. Biome (Limited): Based on biome but prevents unusual surface colors in some biomes. §e[*]§r Does not work correctly on Minecraft versions below 1.13.
+value.WATERCOLOR_MODE.3=Biome (Limited)
+value.WATERCOLOR_MODE.2=Biome
+value.WATERCOLOR_MODE.0=Constant
 
-option.BRIGHT_CAVE_WATER=洞穴/浅水增亮
-option.BRIGHT_CAVE_WATER.comment=使浅水或封闭区域水更亮，提高洞穴能见度，为海洋浅水区添加颜色细节。§e[*]§r 水面不透明度高于199时此效果无效。
+option.BRIGHT_CAVE_WATER=Cave/Shallow Water Brightening
+option.BRIGHT_CAVE_WATER.comment=Makes water brighter in shallow or enclosed areas, improving cave visibility and adding color detail to shallow ocean water. §e[*]§r This effect is disabled when water opacity is above 199.
 
-option.UNDERWATERCOLOR_R=水下红色
-option.UNDERWATERCOLOR_G=水下绿色
-option.UNDERWATERCOLOR_B=水下蓝色
+option.UNDERWATERCOLOR_R=Underwater Red
+option.UNDERWATERCOLOR_G=Underwater Green
+option.UNDERWATERCOLOR_B=Underwater Blue
 
-option.WATER_BUMPINESS=波浪强度
-option.WATER_BUMPINESS.comment=调整水面方向波浪(法线)的强度。
+option.WATER_BUMPINESS=Wave Intensity
+option.WATER_BUMPINESS.comment=Adjusts the intensity of water directional waves (normals).
 
-option.WATER_BUMP_SMALL=小波浪强度
-option.WATER_BUMP_SMALL.comment=调整小于其他波浪的波浪强度。
+option.WATER_BUMP_SMALL=Small Wave Intensity
+option.WATER_BUMP_SMALL.comment=Adjusts the intensity of waves smaller than the others.
 
-option.WATER_BUMP_MED=中波浪强度
-option.WATER_BUMP_MED.comment=调整中等大小波浪的强度。
+option.WATER_BUMP_MED=Medium Wave Intensity
+option.WATER_BUMP_MED.comment=Adjusts the intensity of medium-sized waves.
 
-option.WATER_BUMP_BIG=大波浪强度
-option.WATER_BUMP_BIG.comment=调整大于其他波浪的波浪强度。
+option.WATER_BUMP_BIG=Large Wave Intensity
+option.WATER_BUMP_BIG.comment=Adjusts the intensity of waves larger than the others.
 
-option.WATER_SPEED_MULT=波浪速度
-option.WATER_SPEED_MULT.comment=调整水面方向波浪的移动速度。
+option.WATER_SPEED_MULT=Wave Speed
+option.WATER_SPEED_MULT.comment=Adjusts the movement speed of water directional waves.
 
-option.WATER_SIZE_MULT=波浪大小
-option.WATER_SIZE_MULT.comment=调整水面上方向波浪的外观大小。
+option.WATER_SIZE_MULT=Wave Size
+option.WATER_SIZE_MULT.comment=Adjusts the apparent size of water directional waves on the surface.
 
-option.SUN_ANGLE=日月角度
-option.SUN_ANGLE.comment=调整正午时太阳/月亮相对于世界的角度。§a[+]§r 幻想的照明模型特别设计使"0"度角度与其他角度同样有效。
-value.SUN_ANGLE.-1=随风格
-value.SUN_ANGLE.0=0 §r(§b幻想§r)
-value.SUN_ANGLE.-40=-40 §r(§d无界§r)
+option.SUN_ANGLE=Sun/Moon Angle
+option.SUN_ANGLE.comment=Adjusts the angle of the sun/moon relative to the world at noon. §a[+]§r The Fantasy lighting model is specifically designed so that "0" degree angle is equally effective as other angles.
+value.SUN_ANGLE.-1=Follow Style
+value.SUN_ANGLE.0=0 §r(§bFantasy§r)
+value.SUN_ANGLE.-40=-40 §r(§dUnbound§r)
 
-option.SUN_MOON_STYLE_DEFINE=日月风格
-option.SUN_MOON_STYLE_DEFINE.comment=决定太阳/月亮风格。§e[*]§r 由于日月/天空盒区分的限制，可能与某些资源包交互异常。
-value.SUN_MOON_STYLE_DEFINE.-1=随风格
-value.SUN_MOON_STYLE_DEFINE.1=幻想
-value.SUN_MOON_STYLE_DEFINE.2=无界
-value.SUN_MOON_STYLE_DEFINE.3=无界-小
+option.SUN_MOON_STYLE_DEFINE=Sun/Moon Style
+option.SUN_MOON_STYLE_DEFINE.comment=Determines the sun/moon style. §e[*]§r Due to limitations in sun/moon and skybox differentiation, may interact abnormally with some resource packs.
+value.SUN_MOON_STYLE_DEFINE.-1=Follow Style
+value.SUN_MOON_STYLE_DEFINE.1=Fantasy
+value.SUN_MOON_STYLE_DEFINE.2=Unbound
+value.SUN_MOON_STYLE_DEFINE.3=Unbound-Small
 
-option.SUN_MOON_HORIZON=日月地平线
-option.SUN_MOON_HORIZON.comment=防止太阳/月亮出现在地平线以下。
+option.SUN_MOON_HORIZON=Sun/Moon Horizon
+option.SUN_MOON_HORIZON.comment=Prevents the sun/moon from appearing below the horizon.
 
-option.SUN_MOON_DURING_RAIN=雨天显示日月§e[*]§r
-option.SUN_MOON_DURING_RAIN.comment=决定雨天时太阳和月亮是否可见。§e[*]§r 此设置也会改变雨天的光照平衡。
+option.SUN_MOON_DURING_RAIN=Show Sun/Moon During Rain§e[*]§r
+option.SUN_MOON_DURING_RAIN.comment=Determines whether the sun and moon are visible during rain. §e[*]§r This setting also changes the lighting balance during rain.
 
-option.IMPROVED_RAIN_DEFINE=改进天气纹理
-option.IMPROVED_RAIN_DEFINE.comment=启用改进天气纹理处理，可获得更好颜色并修复雨/雪在染色/修改玻璃后不可见的Minecraft bug。
-value.IMPROVED_RAIN_DEFINE.0=关闭
-value.IMPROVED_RAIN_DEFINE.1=开启
+option.IMPROVED_RAIN_DEFINE=Improved Weather Textures
+option.IMPROVED_RAIN_DEFINE.comment=Enables improved weather texture processing for better colors and fixing a Minecraft bug where rain/snow is invisible behind dyed/modified glass.
+value.IMPROVED_RAIN_DEFINE.0=Off
+value.IMPROVED_RAIN_DEFINE.1=On
 
-option.NIGHT_STAR_AMOUNT=星星数量
-option.NIGHT_STAR_AMOUNT.comment=决定夜空中星星的数量。
-value.NIGHT_STAR_AMOUNT.0=关闭
-value.NIGHT_STAR_AMOUNT.1=低
-value.NIGHT_STAR_AMOUNT.2=中
-value.NIGHT_STAR_AMOUNT.3=高
-value.NIGHT_STAR_AMOUNT.4=极高
+option.NIGHT_STAR_AMOUNT=Star Amount
+option.NIGHT_STAR_AMOUNT.comment=Determines the number of stars in the night sky.
+value.NIGHT_STAR_AMOUNT.0=Off
+value.NIGHT_STAR_AMOUNT.1=Low
+value.NIGHT_STAR_AMOUNT.2=Medium
+value.NIGHT_STAR_AMOUNT.3=High
+value.NIGHT_STAR_AMOUNT.4=Very High
 
-option.RAINBOWS=彩虹
-option.RAINBOWS.comment=启用早晨/傍晚出现在太阳对面的彩虹。
-value.RAINBOWS.0=关闭
-value.RAINBOWS.1=雨后
-value.RAINBOWS.3=总是
+option.RAINBOWS=Rainbows
+option.RAINBOWS.comment=Enables rainbows appearing opposite the sun in the morning/evening.
+value.RAINBOWS.0=Off
+value.RAINBOWS.1=After Rain
+value.RAINBOWS.3=Always
 
-option.RAINBOW_STYLE_DEFINE=彩虹风格
-option.RAINBOW_STYLE_DEFINE.comment=决定彩虹风格。§e[*]§r "随风格"表示由"视觉风格"设置自动决定。
-value.RAINBOW_STYLE_DEFINE.-1=随风格
-value.RAINBOW_STYLE_DEFINE.1=幻想
-value.RAINBOW_STYLE_DEFINE.4=无界
+option.RAINBOW_STYLE_DEFINE=Rainbow Style
+option.RAINBOW_STYLE_DEFINE.comment=Determines the rainbow style. §e[*]§r "Follow Style" means it is automatically determined by the "Visual Style" setting.
+value.RAINBOW_STYLE_DEFINE.-1=Follow Style
+value.RAINBOW_STYLE_DEFINE.1=Fantasy
+value.RAINBOW_STYLE_DEFINE.4=Unbound
 
-option.AURORA_STYLE_DEFINE=极光风格
-option.AURORA_STYLE_DEFINE.comment=决定夜空中北极光的风格。
-value.AURORA_STYLE_DEFINE.-1=随风格
-value.AURORA_STYLE_DEFINE.0=关闭
-value.AURORA_STYLE_DEFINE.1=幻想
-value.AURORA_STYLE_DEFINE.2=无界
+option.AURORA_STYLE_DEFINE=Aurora Style
+option.AURORA_STYLE_DEFINE.comment=Determines the style of northern lights in the night sky.
+value.AURORA_STYLE_DEFINE.-1=Follow Style
+value.AURORA_STYLE_DEFINE.0=Off
+value.AURORA_STYLE_DEFINE.1=Fantasy
+value.AURORA_STYLE_DEFINE.2=Unbound
 
-option.AURORA_CONDITION=极光条件
-option.AURORA_CONDITION.comment=决定北极光出现的条件。§e[*]§r 无论此设置如何，北极光仅在夜间出现。
-value.AURORA_CONDITION.0=每晚
-value.AURORA_CONDITION.1=满月
-value.AURORA_CONDITION.2=雪群系
-value.AURORA_CONDITION.3=雪群系满月
-value.AURORA_CONDITION.4=满月或雪群系
+option.AURORA_CONDITION=Aurora Condition
+option.AURORA_CONDITION.comment=Determines the conditions for northern lights to appear. §e[*]§r Regardless of this setting, northern lights only appear at night.
+value.AURORA_CONDITION.0=Every Night
+value.AURORA_CONDITION.1=Full Moon
+value.AURORA_CONDITION.2=Snow Biome
+value.AURORA_CONDITION.3=Snow Biome Full Moon
+value.AURORA_CONDITION.4=Full Moon or Snow Biome
 
-option.NIGHT_NEBULAE=§e夜空星云§r
-option.NIGHT_NEBULAE.comment=为夜空添加星系星云。星云为程序生成，每晚看起来都不同。§c[-]§r 会影响性能。
-value.NIGHT_NEBULAE.-1=关闭
-value.NIGHT_NEBULAE.1=§e开启
+option.NIGHT_NEBULAE=§eNight Nebulae§r
+option.NIGHT_NEBULAE.comment=Adds galaxy nebulae to the night sky. Nebulae are procedurally generated and look different every night. §c[-]§r Will affect performance.
+value.NIGHT_NEBULAE.-1=Off
+value.NIGHT_NEBULAE.1=§eOn
 
-option.NIGHT_NEBULA_I=星云亮度
-option.NIGHT_NEBULA_I.comment=调整夜空星云的亮度。
+option.NIGHT_NEBULA_I=Nebula Brightness
+option.NIGHT_NEBULA_I.comment=Adjusts the brightness of night sky nebulae.
 
-option.RAIN_STYLE=雨天风格
-option.RAIN_STYLE.comment=决定雨天的风格。
-value.RAIN_STYLE.1=轻量&暖
-value.RAIN_STYLE.2=厚重&冷
+option.RAIN_STYLE=Rain Style
+option.RAIN_STYLE.comment=Determines the style of rain.
+value.RAIN_STYLE.1=Light & Warm
+value.RAIN_STYLE.2=Heavy & Cold
 
-option.SPECIAL_BIOME_WEATHER=特殊群系天气
-option.SPECIAL_BIOME_WEATHER.comment=改变寒冷和干燥群系的大气平衡，营造暴风雪或沙尘暴的感觉。
+option.SPECIAL_BIOME_WEATHER=Special Biome Weather
+option.SPECIAL_BIOME_WEATHER.comment=Changes the atmospheric balance in cold and dry biomes, creating a blizzard or sandstorm feel.
 
-option.WEATHER_TEX_OPACITY=天气纹理不透明度
-option.WEATHER_TEX_OPACITY.comment=调整降雨/降雪天气纹理的不透明度。
+option.WEATHER_TEX_OPACITY=Weather Texture Opacity
+option.WEATHER_TEX_OPACITY.comment=Adjusts the opacity of rain/snow weather textures.
 
-option.SHADOW_SMOOTHING=§e阴影柔化§r
-option.SHADOW_SMOOTHING.comment=决定阴影的锐利度。§c[-]§r 降低此设置会增加阴影闪烁并影响性能。§e[*]§r 仅"实时阴影"设为低或更高时有效。
-value.SHADOW_SMOOTHING.4=§a极柔
-value.SHADOW_SMOOTHING.3=§a柔
-value.SHADOW_SMOOTHING.2=§c锐[-]
-value.SHADOW_SMOOTHING.1=§c极锐[-]
+option.SHADOW_SMOOTHING=§eShadow Smoothing§r
+option.SHADOW_SMOOTHING.comment=Determines the sharpness of shadows. §c[-]§r Lowering this setting increases shadow flickering and affects performance. §e[*]§r Only effective when "Real-Time Shadows" is set to Low or higher.
+value.SHADOW_SMOOTHING.4=§aVery Smooth
+value.SHADOW_SMOOTHING.3=§aSmooth
+value.SHADOW_SMOOTHING.2=§cSharp[-]
+value.SHADOW_SMOOTHING.1=§cVery Sharp[-]
 
-option.PIXELATED_SHADOWS=像素化阴影
-option.PIXELATED_SHADOWS.comment=使日月投射的阴影像素化。
+option.PIXELATED_SHADOWS=Pixelated Shadows
+option.PIXELATED_SHADOWS.comment=Pixelates shadows cast by the sun and moon.
 
-option.PIXELATED_BLOCKLIGHT=像素化方块光
-option.PIXELATED_BLOCKLIGHT.comment=使光源方块投射的光照像素化。
+option.PIXELATED_BLOCKLIGHT=Pixelated Block Light
+option.PIXELATED_BLOCKLIGHT.comment=Pixelates light emitted by light source blocks.
 
-option.PIXELATED_AO=像素化边缘阴影
-option.PIXELATED_AO.comment=使Minecraft原版AO像素化。
+option.PIXELATED_AO=Pixelated Edge Shadows
+option.PIXELATED_AO.comment=Pixelates Minecraft's vanilla ambient occlusion.
 
-option.PIXEL_SCALE=像素化缩放
-option.PIXEL_SCALE.comment=对纹理分辨率进行缩放。
+option.PIXEL_SCALE=Pixel Scale
+option.PIXEL_SCALE.comment=Scales texture resolution.
 value.PIXEL_SCALE.-2=0.25x
 value.PIXEL_SCALE.-1=0.5x
 value.PIXEL_SCALE.1=1x
@@ -636,13 +641,13 @@ value.PIXEL_SCALE.3=4x
 value.PIXEL_SCALE.4=8x
 value.PIXEL_SCALE.5=16x
 
-option.BLOOM_ENABLED=§e泛光§r
-option.BLOOM_ENABLED.comment=启用明亮物体和湿度产生的模糊辉光。§c[-]§r 会影响性能。
-value.BLOOM_ENABLED.-1=关闭
-value.BLOOM_ENABLED.1=§e开启
+option.BLOOM_ENABLED=§eBloom§r
+option.BLOOM_ENABLED.comment=Enables a blurred glow from bright objects and moisture. §c[-]§r Will affect performance.
+value.BLOOM_ENABLED.-1=Off
+value.BLOOM_ENABLED.1=§eOn
 
-option.BLOOM_STRENGTH=泛光强度
-option.BLOOM_STRENGTH.comment=决定明亮物体的辉光强度以及雨天/洞穴湿度的泛光。§c[-]§r 过量泛光会导致图像比预期更模糊更亮，特别在潮湿条件下。
+option.BLOOM_STRENGTH=Bloom Strength
+option.BLOOM_STRENGTH.comment=Determines the glow intensity of bright objects and the bloom from rain/cave moisture. §c[-]§r Excessive bloom can make the image blurrier and brighter than intended, especially in wet conditions.
 value.BLOOM_STRENGTH.0.027=15%
 value.BLOOM_STRENGTH.0.036=20%
 value.BLOOM_STRENGTH.0.045=25%
@@ -666,11 +671,11 @@ value.BLOOM_STRENGTH.0.23=120% §c[-]
 value.BLOOM_STRENGTH.0.25=130% §c[-]
 value.BLOOM_STRENGTH.0.28=150% §c[-]
 value.BLOOM_STRENGTH.0.32=180% §c[-]
-value.BLOOM_STRENGTH.10.00=§c疯狂
+value.BLOOM_STRENGTH.10.00=§cCrazy
 
-option.IMAGE_SHARPENING=图像锐化
-option.IMAGE_SHARPENING.comment=使用滤镜使图像更锐利。§c[-]§r 过度锐化可能导走样、闪烁、噪点和轻微亮度变化。
-value.IMAGE_SHARPENING.0=关闭
+option.IMAGE_SHARPENING=Image Sharpening
+option.IMAGE_SHARPENING.comment=Uses filters to make the image sharper. §c[-]§r Excessive sharpening may cause aliasing, flickering, noise, and slight brightness changes.
+value.IMAGE_SHARPENING.0=Off
 value.IMAGE_SHARPENING.1=1x
 value.IMAGE_SHARPENING.2=2x
 value.IMAGE_SHARPENING.3=3x
@@ -682,478 +687,478 @@ value.IMAGE_SHARPENING.8=8x §c[-]
 value.IMAGE_SHARPENING.9=9x §c[-]
 value.IMAGE_SHARPENING.10=10x §c[-]
 
-option.LENSFLARE_MODE=§e镜头光晕§r
-option.LENSFLARE_MODE.comment=朝向日月时添加相机镜头反射效果。§c[-]§r 会严重影响性能。
-value.LENSFLARE_MODE.0=关闭
-value.LENSFLARE_MODE.1=§c仅太阳
-value.LENSFLARE_MODE.2=§c太阳+月亮
+option.LENSFLARE_MODE=§eLens Flare§r
+option.LENSFLARE_MODE.comment=Adds camera lens reflection effects when facing the sun or moon. §c[-]§r Will severely impact performance.
+value.LENSFLARE_MODE.0=Off
+value.LENSFLARE_MODE.1=§cSun Only
+value.LENSFLARE_MODE.2=§cSun + Moon
 
-option.LENSFLARE_I=镜头光晕强度
-option.LENSFLARE_I.comment=调整镜头光晕效果的强度。
+option.LENSFLARE_I=Lens Flare Intensity
+option.LENSFLARE_I.comment=Adjusts the intensity of the lens flare effect.
 
-option.TAA_MODE=§e时序滤波§r
-option.TAA_MODE.comment=启用时序抗锯齿，有助于平滑颗粒效果，通过减少重型效果采样数提高性能，设置得当可减少走样。§c[-]§r: 关闭会导致性能下降和效果质量降低。
-value.TAA_MODE.0=§c关闭[-]
-value.TAA_MODE.1=开启 §a[+]
+option.TAA_MODE=§eTemporal Filtering§r
+option.TAA_MODE.comment=Enables temporal anti-aliasing, which helps smooth out grainy effects, improves performance by reducing samples for heavy effects, and reduces aliasing when set properly. §c[-]§r: Disabling will cause performance drops and lower effect quality.
+value.TAA_MODE.0=§cOff[-]
+value.TAA_MODE.1=On §a[+]
 
-option.TAA_SMOOTHING=时序平滑度
-option.TAA_SMOOTHING.comment=调整时序滤波应用的平滑量。较高值产生更模糊图像但减少闪烁和颗粒感。静止不动时差异不明显。
-value.TAA_SMOOTHING.2=低
-value.TAA_SMOOTHING.3=中
-value.TAA_SMOOTHING.4=高
+option.TAA_SMOOTHING=Temporal Smoothing
+option.TAA_SMOOTHING.comment=Adjusts the amount of smoothing applied by temporal filtering. Higher values produce a blurrier image but reduce flickering and graininess. The difference is less noticeable when standing still.
+value.TAA_SMOOTHING.2=Low
+value.TAA_SMOOTHING.3=Medium
+value.TAA_SMOOTHING.4=High
 
-option.TAA_JITTER=时序抖动§e[*]§r
-option.TAA_JITTER.comment=抖动有助于时序滤波更好地抗锯齿，但有一些缺点。§e[*]§r 较高值提高抗锯齿但也导致大量闪烁和模糊。§e[*]§r 完整抖动时建议高时序平滑度。§c[-]§r 关闭抖动将消除抗锯齿收益。
-value.TAA_JITTER.0=关闭 §c[-]
-value.TAA_JITTER.1=低
-value.TAA_JITTER.2=中
-value.TAA_JITTER.3=完整§e[*]
+option.TAA_JITTER=Temporal Jitter§e[*]§r
+option.TAA_JITTER.comment=Jitter helps temporal filtering anti-alias better, but has some drawbacks. §e[*]§r Higher values improve anti-aliasing but also cause more flickering and blur. §e[*]§r High temporal smoothing is recommended with full jitter. §c[-]§r Disabling jitter will eliminate anti-aliasing benefits.
+value.TAA_JITTER.0=Off §c[-]
+value.TAA_JITTER.1=Low
+value.TAA_JITTER.2=Medium
+value.TAA_JITTER.3=Full§e[*]
 
-option.TAA_MOVEMENT_IMPROVEMENT_FILTER=Catmull-Rom采样
-option.TAA_MOVEMENT_IMPROVEMENT_FILTER.comment=通过高级采样减少时序滤波模糊。
-value.TAA_MOVEMENT_IMPROVEMENT_FILTER.0=关闭 §c[-]
-value.TAA_MOVEMENT_IMPROVEMENT_FILTER.1=开启
+option.TAA_MOVEMENT_IMPROVEMENT_FILTER=Catmull-Rom Sampling
+option.TAA_MOVEMENT_IMPROVEMENT_FILTER.comment=Reduces temporal filtering blur through advanced sampling.
+value.TAA_MOVEMENT_IMPROVEMENT_FILTER.0=Off §c[-]
+value.TAA_MOVEMENT_IMPROVEMENT_FILTER.1=On
 
-option.FXAA_STRENGTH=FXAA强度
-option.FXAA_STRENGTH.comment=调整FXAA效果强度。较高值产生更好抗锯齿但图像更模糊。
-value.FXAA_STRENGTH.-1=关闭
+option.FXAA_STRENGTH=FXAA Strength
+option.FXAA_STRENGTH.comment=Adjusts the strength of the FXAA effect. Higher values produce better anti-aliasing but a blurrier image.
+value.FXAA_STRENGTH.-1=Off
 
-option.FXAA_TAA_INTERACTION=移动时降低FXAA
-option.FXAA_TAA_INTERACTION.comment=镜头移动时降低FXAA强度。较高值产生更锐利图像但闪烁更多。
-value.FXAA_TAA_INTERACTION.0=关闭
+option.FXAA_TAA_INTERACTION=Reduce FXAA on Movement
+option.FXAA_TAA_INTERACTION.comment=Reduces FXAA strength when the camera moves. Higher values produce a sharper image but with more flickering.
+value.FXAA_TAA_INTERACTION.0=Off
 value.FXAA_TAA_INTERACTION.2=20
 value.FXAA_TAA_INTERACTION.4=40
 value.FXAA_TAA_INTERACTION.6=60
 value.FXAA_TAA_INTERACTION.8=80
 value.FXAA_TAA_INTERACTION.10=100
 
-option.DISTANT_LIGHT_BOKEH=远光散景
-option.DISTANT_LIGHT_BOKEH.comment=通过应用远处单像素模糊使远处光源散射。§a[+]§r 受益于IPBR+，调整远处光源获得更好外观。
+option.DISTANT_LIGHT_BOKEH=Distant Light Bokeh
+option.DISTANT_LIGHT_BOKEH.comment=Scatters distant light sources by applying a single-pixel blur to distant lights. §a[+]§r Benefits from IPBR+ for better-looking distant light sources.
 
-option.MOTION_BLUR_EFFECT=§e动态模糊§r
-option.MOTION_BLUR_EFFECT.comment=移动镜头时对图像应用模糊。§c[-]§r 会影响性能。
-value.MOTION_BLUR_EFFECT.-1=关闭
-value.MOTION_BLUR_EFFECT.1=§e开启
+option.MOTION_BLUR_EFFECT=§eMotion Blur§r
+option.MOTION_BLUR_EFFECT.comment=Applies blur to the image when the camera moves. §c[-]§r Will affect performance.
+value.MOTION_BLUR_EFFECT.-1=Off
+value.MOTION_BLUR_EFFECT.1=§eOn
 
-option.MOTION_BLURRING_STRENGTH=动态模糊强度
-option.MOTION_BLURRING_STRENGTH.comment=调整动态模糊的强度。
+option.MOTION_BLURRING_STRENGTH=Motion Blur Strength
+option.MOTION_BLURRING_STRENGTH.comment=Adjusts the strength of the motion blur.
 
-option.WORLD_BLUR=§e世界模糊§r
-option.WORLD_BLUR.comment=启用世界模糊。距离模糊: 模糊如雾般应用，取决于与镜头的距离。景深: 模糊取决于镜头焦点位置。§c[-]§r 会严重影响性能。
-value.WORLD_BLUR.0=§a关闭
-value.WORLD_BLUR.1=§c距离模糊
-value.WORLD_BLUR.2=§c景深
+option.WORLD_BLUR=§eWorld Blur§r
+option.WORLD_BLUR.comment=Enables world blur. Distance Blur: Blur applied like fog, depending on distance from the camera. Depth of Field: Blur depends on the camera's focus point. §c[-]§r Will severely impact performance.
+value.WORLD_BLUR.0=§aOff
+value.WORLD_BLUR.1=§cDistance Blur
+value.WORLD_BLUR.2=§cDepth of Field
 
-option.WB_FOV_SCALED=FOV缩放模糊
-option.WB_FOV_SCALED.comment=将世界模糊缩放到镜头视场角。启用后放大时世界模糊更强烈。
+option.WB_FOV_SCALED=FOV Scaled Blur
+option.WB_FOV_SCALED.comment=Scales world blur to the camera FOV. When enabled, world blur is stronger when zooming in.
 
-option.WB_CHROMATIC=色散模糊
-option.WB_CHROMATIC.comment=对模糊区域应用色散，分离模糊区域中的不同颜色。
+option.WB_CHROMATIC=Chromatic Blur
+option.WB_CHROMATIC.comment=Applies chromatic aberration to blurred areas, separating different colors in the blur.
 
-option.WB_ANAMORPHIC=变形模糊
-option.WB_ANAMORPHIC.comment=单向拉伸模糊。§c[-]§r 可能降低世界模糊质量。
+option.WB_ANAMORPHIC=Anamorphic Blur
+option.WB_ANAMORPHIC.comment=Stretches the blur in one direction. §c[-]§r May reduce world blur quality.
 
-option.WB_DOF_I=景深强度
-option.WB_DOF_FOCUS=景深焦点
-option.WB_DOF_FOCUS.comment=决定镜头焦距。自动: 焦点根据屏幕中心点调整。亮度: 焦点由视频设置中的"亮度"滑块决定。
-value.WB_DOF_FOCUS.-1=亮度§e[*]
-value.WB_DOF_FOCUS.0=自动
+option.WB_DOF_I=Depth of Field Intensity
+option.WB_DOF_FOCUS=Depth of Field Focus
+option.WB_DOF_FOCUS.comment=Determines the camera focal length. Auto: Focus adjusts based on the center of the screen. Brightness: Focus is determined by the "Brightness" slider in Video Settings.
+value.WB_DOF_FOCUS.-1=Brightness§e[*]
+value.WB_DOF_FOCUS.0=Auto
 
-option.WB_DB_DAY_I=距离模糊-白天
-option.WB_DB_NIGHT_I=距离模糊-夜晚
-option.WB_DB_RAIN_I=距离模糊-雨雪
-option.WB_DB_WATER_I=距离模糊-水下
-option.WB_DB_NETHER_I=距离模糊-地狱
-option.WB_DB_END_I=距离模糊-末地
+option.WB_DB_DAY_I=Distance Blur - Day
+option.WB_DB_NIGHT_I=Distance Blur - Night
+option.WB_DB_RAIN_I=Distance Blur - Rain/Snow
+option.WB_DB_WATER_I=Distance Blur - Underwater
+option.WB_DB_NETHER_I=Distance Blur - Nether
+option.WB_DB_END_I=Distance Blur - End
 
-option.VIGNETTE_R=暗角
-option.VIGNETTE_R.comment=在屏幕边缘应用暗角。
+option.VIGNETTE_R=Vignette
+option.VIGNETTE_R.comment=Applies a vignette effect at the edges of the screen.
 
-option.CHROMA_ABERRATION=色散
-option.CHROMA_ABERRATION.comment=将不同颜色分离到屏幕边缘。§c[-]§r 色散会导致图像模糊；高值不推荐游戏使用。
+option.CHROMA_ABERRATION=Chromatic Aberration
+option.CHROMA_ABERRATION.comment=Separates different colors toward the edges of the screen. §c[-]§r Chromatic aberration causes image blur; high values are not recommended for gameplay.
 value.CHROMA_ABERRATION.4=4 §c[-]
 value.CHROMA_ABERRATION.5=5 §c[-]
 value.CHROMA_ABERRATION.6=6 §c[-]
 value.CHROMA_ABERRATION.7=7 §c[-]
 value.CHROMA_ABERRATION.8=8 §c[-]
 
-option.IPBR_EMISSIVE_MODE=IPBR+自发光模式
-option.IPBR_EMISSIVE_MODE.comment=决定IPBR+中自发光的处理方式。选择labPBR或seuspbr允许兼容资源包完全覆盖带高光纹理方块的IPBR+自发光。§c[-]§r 不推荐更改此设置除非你知道自己在做什么。
-value.IPBR_EMISSIVE_MODE.1=仅IPBR+
-value.IPBR_EMISSIVE_MODE.3=labPBR优先
-value.IPBR_EMISSIVE_MODE.2=seuspbr优先
+option.IPBR_EMISSIVE_MODE=IPBR+ Emissive Mode
+option.IPBR_EMISSIVE_MODE.comment=Determines how emissive textures are handled in IPBR+. Choosing labPBR or seuspbr allows compatible resource packs to fully override IPBR+ emissive on blocks with specular textures. §c[-]§r Not recommended to change this setting unless you know what you are doing.
+value.IPBR_EMISSIVE_MODE.1=IPBR+ Only
+value.IPBR_EMISSIVE_MODE.3=labPBR Priority
+value.IPBR_EMISSIVE_MODE.2=seuspbr Priority
 
-option.IPBR_COMPAT_MODE_DEFINE=IPBR+兼容模式
-option.IPBR_COMPAT_MODE_DEFINE.comment=更改IPBR+功能的计算方式使其不那么激进，减少与资源包或模组的问题。
+option.IPBR_COMPAT_MODE_DEFINE=IPBR+ Compatibility Mode
+option.IPBR_COMPAT_MODE_DEFINE.comment=Changes how IPBR+ features are calculated to be less aggressive, reducing issues with resource packs or mods.
 
-option.IPBR_PARTICLE_FEATURES=IPBR+粒子效果
-option.IPBR_PARTICLE_FEATURES.comment=启用多项粒子功能，包括发光岩浆粒子和更好颜色的水粒子。
+option.IPBR_PARTICLE_FEATURES=IPBR+ Particle Effects
+option.IPBR_PARTICLE_FEATURES.comment=Enables multiple particle features, including glowing lava particles and better-colored water particles.
 
-option.FANCY_GLASS=增强玻璃
-option.FANCY_GLASS.comment=通过添加半透明层改善普通玻璃。§c[-]§r 不兼容较旧Iris版本。§e[*]§r RP支持须设为IPBR+。
+option.FANCY_GLASS=Fancy Glass
+option.FANCY_GLASS.comment=Improves ordinary glass by adding a translucent layer. §c[-]§r Not compatible with older Iris versions. §e[*]§r RP Support must be set to IPBR+.
 
-option.GREEN_SCREEN_LIME=绿幕方块
-option.GREEN_SCREEN_LIME.comment=将黄绿色混凝土/羊毛/地毯变成视频编辑绿幕。技巧1: 关闭"泛光"以改善分离。技巧2: 在黄绿色地毯下放光源。技巧3: 关闭抗锯齿(FXAA)并在性能设置中将细节质量设为土豆机以禁用所有过滤获得像素完美抠图。
+option.GREEN_SCREEN_LIME=Green Screen Block
+option.GREEN_SCREEN_LIME.comment=Turns lime-green concrete/wool/carpet into a video editing green screen. Tip 1: Turn off "Bloom" to improve separation. Tip 2: Place a light source under lime-green carpet. Tip 3: Turn off anti-aliasing (FXAA) and set Detail Quality to Potato in Performance Settings to disable all filtering for pixel-perfect keying.
 
-option.MIRROR_TINTED_GLASS=镜面染色玻璃
-option.MIRROR_TINTED_GLASS.comment=增加染色玻璃的反射性和不透明度。启用世界空间反射获最佳效果。
+option.MIRROR_TINTED_GLASS=Mirror Tinted Glass
+option.MIRROR_TINTED_GLASS.comment=Increases the reflectivity and opacity of tinted glass. Enable world space reflections for the best effect.
 
-option.MORE_REFLECTIVE_DISTANT_GLASS=远距玻璃反射增强
-option.MORE_REFLECTIVE_DISTANT_GLASS.comment=增加远处玻璃的反射性和不透明度，使玻璃窗建筑更美观。
+option.MORE_REFLECTIVE_DISTANT_GLASS=Distant Glass Reflection Enhancement
+option.MORE_REFLECTIVE_DISTANT_GLASS.comment=Increases the reflectivity and opacity of distant glass, making glass-windowed buildings look better.
 
-option.HIDE_ARMOR=隐藏盔甲§e[*]§r
-option.HIDE_ARMOR.comment=隐藏玩家或所有实体的盔甲和鞘翅。鞘翅仅在飞行时显示。§e[*]§r 仅Iris上有效。§e[*]§r "主角开启"选项在其他穿盔甲实体靠近主角时可能混乱。
-value.HIDE_ARMOR.0=关闭
-value.HIDE_ARMOR.1=主角开启§e[*]§r
-value.HIDE_ARMOR.2=所有实体开启
+option.HIDE_ARMOR=Hide Armor§e[*]§r
+option.HIDE_ARMOR.comment=Hides armor and elytra on the player or all entities. Elytra are only shown when flying. §e[*]§r Only effective on Iris. §e[*]§r The "Player Only" option may get confused when other armor-wearing entities are near the player.
+value.HIDE_ARMOR.0=Off
+value.HIDE_ARMOR.1=Player Only§e[*]§r
+value.HIDE_ARMOR.2=All Entities
 
-option.HAND_SWAYING=手臂晃动
-option.HAND_SWAYING.comment=为玩家手臂添加缓慢移动，模拟呼吸动画。
-value.HAND_SWAYING.0=关闭
-value.HAND_SWAYING.1=淡
-value.HAND_SWAYING.2=普通
-value.HAND_SWAYING.3=浓
+option.HAND_SWAYING=Hand Swaying
+option.HAND_SWAYING.comment=Adds slow movement to the player's hand, simulating a breathing animation.
+value.HAND_SWAYING.0=Off
+value.HAND_SWAYING.1=Light
+value.HAND_SWAYING.2=Normal
+value.HAND_SWAYING.3=Strong
 
-option.LESS_LAVA_FOG=减少岩浆/雪雾
-option.LESS_LAVA_FOG.comment=减少岩浆雾和细雪雾提高内部可见度。
+option.LESS_LAVA_FOG=Reduce Lava/Snow Fog
+option.LESS_LAVA_FOG.comment=Reduces lava fog and powder snow fog to improve internal visibility.
 
-option.REDUCE_CLOSE_PARTICLES=减少近距粒子
-option.REDUCE_CLOSE_PARTICLES.comment=降低靠近镜头粒子的不透明度提高可见度。
+option.REDUCE_CLOSE_PARTICLES=Reduce Near Particles
+option.REDUCE_CLOSE_PARTICLES.comment=Reduces the opacity of particles close to the camera to improve visibility.
 
-option.SNOWY_WORLD=雪世界
-option.SNOWY_WORLD.comment=使整个世界被雪覆盖。
+option.SNOWY_WORLD=Snowy World
+option.SNOWY_WORLD.comment=Covers the entire world with snow.
 
-option.SHOW_LIGHT_LEVEL=显示光照等级
-option.SHOW_LIGHT_LEVEL.comment=主世界: 黄色表示生物可在夜间生成，红色表示生物随时可生成。地狱或末地: 黄色表示部分生物可生成，红色表示所有生物可生成。§e[*]§r 禁用平滑光照以获得精确结果。
-value.SHOW_LIGHT_LEVEL.0=关闭
-value.SHOW_LIGHT_LEVEL.1=手持蜘蛛眼
-value.SHOW_LIGHT_LEVEL.2=手持光源
-value.SHOW_LIGHT_LEVEL.3=始终开启
+option.SHOW_LIGHT_LEVEL=Show Light Level
+option.SHOW_LIGHT_LEVEL.comment=Overworld: Yellow indicates mobs can spawn at night, Red indicates mobs can spawn anytime. Nether or End: Yellow indicates some mobs can spawn, Red indicates all mobs can spawn. §e[*]§r Disable smooth lighting for accurate results.
+value.SHOW_LIGHT_LEVEL.0=Off
+value.SHOW_LIGHT_LEVEL.1=Hold Spider Eye
+value.SHOW_LIGHT_LEVEL.2=Hold Light Source
+value.SHOW_LIGHT_LEVEL.3=Always On
 
-option.COLOR_CODED_PROGRAMS=颜色编码着色器§c[-]§r
-option.COLOR_CODED_PROGRAMS.comment=显示用于渲染几何体的着色器程序。§c[-]§r 仅供开发使用不应用于游戏。§e[*]§r 颜色值可在shaders/lib/misc/colorCodedPrograms.glsl中找到。
+option.COLOR_CODED_PROGRAMS=Color-Coded Shaders§c[-]§r
+option.COLOR_CODED_PROGRAMS.comment=Displays the shader programs used for rendering geometry. §c[-]§r For development use only, not for gameplay. §e[*]§r Color values can be found in shaders/lib/misc/colorCodedPrograms.glsl.
 
-option.GLOWING_COLORED_PARTICLES=强制发光粒子§c[-]§r
-option.GLOWING_COLORED_PARTICLES.comment=使所有技术上"有颜色"的粒子变自发光。§c[-]§r 不推荐游戏使用，会使许多不应发光的材质粒子发光。
+option.GLOWING_COLORED_PARTICLES=Force Glowing Particles§c[-]§r
+option.GLOWING_COLORED_PARTICLES.comment=Makes all technically "colored" particles emissive. §c[-]§r Not recommended for gameplay, as it will make many non-emissive material particles glow.
 
-option.CAVE_LIGHTING=洞穴光照倍数
-option.CAVE_LIGHTING.comment=为无天空光区域添加额外光照。§e[*]§r 洞穴光照也受视频设置"亮度"滑块影响。§c[-]§r 大幅更改此设置会破坏光照平衡。
+option.CAVE_LIGHTING=Cave Lighting Multiplier
+option.CAVE_LIGHTING.comment=Adds extra lighting to areas without skylight. §e[*]§r Cave lighting is also affected by the "Brightness" slider in Video Settings. §c[-]§r Drastically changing this setting will break lighting balance.
 
-option.AMBIENT_MULT=阴影亮度倍数
-option.AMBIENT_MULT.comment=决定阴影中可见的环境光照量。§c[-]§r 大幅更改此设置会破坏光照平衡。
+option.AMBIENT_MULT=Shadow Brightness Multiplier
+option.AMBIENT_MULT.comment=Determines the amount of ambient light visible in shadows. §c[-]§r Drastically changing this setting will break lighting balance.
 
-option.PLAYER_SHADOW=玩家阴影§e[*]§r
-option.PLAYER_SHADOW.comment=决定玩家是否投射阴影。§e[*]§r 仅完全在Iris上有效。§e[*]§r "实时阴影"关闭则禁用。
-value.PLAYER_SHADOW.-1=关闭
-value.PLAYER_SHADOW.1=开启
+option.PLAYER_SHADOW=Player Shadow§e[*]§r
+option.PLAYER_SHADOW.comment=Determines whether the player casts a shadow. §e[*]§r Only fully effective on Iris. §e[*]§r Disabled when "Real-Time Shadows" is off.
+value.PLAYER_SHADOW.-1=Off
+value.PLAYER_SHADOW.1=On
 
-option.GENERATED_NORMALS=自动生成法线
-option.GENERATED_NORMALS.comment=为表面添加自动生成凹凸细节。§e[*]§r RP支持须设为IPBR+。§e[*]§r 与非标准分辨率纹理的资源包或模组可能不协调。
+option.GENERATED_NORMALS=Generated Normals
+option.GENERATED_NORMALS.comment=Adds auto-generated bump details to surfaces. §e[*]§r RP Support must be set to IPBR+. §e[*]§r May not harmonize well with resource packs or mods using non-standard resolution textures.
 
-option.COATED_TEXTURES=涂层纹理
-option.COATED_TEXTURES.comment=为纹理添加自动生成灰尘细节。§e[*]§r RP支持须设为IPBR+。§e[*]§r 与非标准分辨率纹理的资源包或模组可能不协调。
+option.COATED_TEXTURES=Coated Textures
+option.COATED_TEXTURES.comment=Adds auto-generated dust details to textures. §e[*]§r RP Support must be set to IPBR+. §e[*]§r May not harmonize well with resource packs or mods using non-standard resolution textures.
 
-option.ENTITY_GN_AND_CT=实体启用法线/涂层
-option.ENTITY_GN_AND_CT.comment=决定自动生成法线和涂层纹理是否在实体上显示。§e[*]§r 如主法线/涂层选项禁用则不会在实体上启用。
+option.ENTITY_GN_AND_CT=Entity Normals/Coating
+option.ENTITY_GN_AND_CT.comment=Determines whether auto-generated normals and coated textures are displayed on entities. §e[*]§r Will not be enabled on entities if the main normals/coating options are disabled.
 
-option.GENERATED_NORMAL_MULT=法线强度
-option.GENERATED_NORMAL_MULT.comment=调整表面自动生成凹凸细节的强度。
+option.GENERATED_NORMAL_MULT=Normal Intensity
+option.GENERATED_NORMAL_MULT.comment=Adjusts the intensity of auto-generated bump details on surfaces.
 
-option.GENERATED_NORMAL_RES=法线分辨率
-option.GENERATED_NORMAL_RES.comment=调整表面自动生成凹凸细节的分辨率/大小。§e[*]§r 注意法线分辨率也取决于各纹理自身分辨率，资源包或模组可能搞乱不同方块的法线分辨率。
+option.GENERATED_NORMAL_RES=Normal Resolution
+option.GENERATED_NORMAL_RES.comment=Adjusts the resolution/size of auto-generated bump details on surfaces. §e[*]§r Note that normal resolution also depends on each texture's own resolution; resource packs or mods may mess up the normal resolution of different blocks.
 
-option.COATED_TEXTURE_MULT=涂层强度
-option.COATED_TEXTURE_MULT.comment=调整纹理自动生成灰尘细节的强度。
+option.COATED_TEXTURE_MULT=Coating Intensity
+option.COATED_TEXTURE_MULT.comment=Adjusts the intensity of auto-generated dust details on textures.
 
-option.GLOWING_ORE_MASTER=§e发光矿石开关
-option.GLOWING_ORE_MASTER.comment=启用发光矿石功能。§e[*]§r 选择"随风格"仅在"视觉风格"设为"无界"时启用发光矿石。§e[*]§r 此选项未启用则以下设置不生效。
-value.GLOWING_ORE_MASTER.0=关闭
-value.GLOWING_ORE_MASTER.1=随风格
-value.GLOWING_ORE_MASTER.2=§a开启
+option.GLOWING_ORE_MASTER=§eGlowing Ores Master Switch
+option.GLOWING_ORE_MASTER.comment=Enables the glowing ore feature. §e[*]§r Select "Follow Style" to only enable glowing ores when the "Visual Style" is set to "Unbound". §e[*]§r The following settings have no effect if this option is not enabled.
+value.GLOWING_ORE_MASTER.0=Off
+value.GLOWING_ORE_MASTER.1=Follow Style
+value.GLOWING_ORE_MASTER.2=§aOn
 
-option.GLOWING_ORE_MULT=矿石发光强度
-option.GLOWING_ORE_MULT.comment=决定发光矿石的发光强度。
+option.GLOWING_ORE_MULT=Ore Glow Intensity
+option.GLOWING_ORE_MULT.comment=Determines the glow intensity of glowing ores.
 
-option.GLOWING_ORE_IRON=铁矿石发光
-option.GLOWING_ORE_GOLD=金矿石发光
-option.GLOWING_ORE_COPPER=铜矿石发光
-option.GLOWING_ORE_REDSTONE=红石矿石发光§e[*]§r
-option.GLOWING_ORE_REDSTONE.comment=§e[*]§r 红石矿石被"激活"后无论此设置如何都会发光。
-option.GLOWING_ORE_LAPIS=青金石发光
-option.GLOWING_ORE_EMERALD=绿宝石发光
-option.GLOWING_ORE_DIAMOND=钻石发光
-option.GLOWING_ORE_NETHERQUARTZ=下界石英发光
-option.GLOWING_ORE_NETHERGOLD=下界金矿发光
-option.GLOWING_ORE_GILDEDBLACKSTONE=镶金黑石发光
-option.GLOWING_ORE_ANCIENTDEBRIS=远古残骸发光
-option.GLOWING_ORE_MODDED=模组矿石发光§e[*]§r
-option.GLOWING_ORE_MODDED.comment=§e[*]§r 可在光影包里block.properties文件中添加模组矿石ID使其发光。用任意文本编辑器打开block.properties，在"block.10024="旁边添加模组矿石方块ID。
+option.GLOWING_ORE_IRON=Iron Ore Glow
+option.GLOWING_ORE_GOLD=Gold Ore Glow
+option.GLOWING_ORE_COPPER=Copper Ore Glow
+option.GLOWING_ORE_REDSTONE=Redstone Ore Glow§e[*]§r
+option.GLOWING_ORE_REDSTONE.comment=§e[*]§r Redstone ore will glow regardless of this setting once "activated".
+option.GLOWING_ORE_LAPIS=Lapis Lazuli Glow
+option.GLOWING_ORE_EMERALD=Emerald Glow
+option.GLOWING_ORE_DIAMOND=Diamond Glow
+option.GLOWING_ORE_NETHERQUARTZ=Nether Quartz Glow
+option.GLOWING_ORE_NETHERGOLD=Nether Gold Ore Glow
+option.GLOWING_ORE_GILDEDBLACKSTONE=Gilded Blackstone Glow
+option.GLOWING_ORE_ANCIENTDEBRIS=Ancient Debris Glow
+option.GLOWING_ORE_MODDED=Modded Ore Glow§e[*]§r
+option.GLOWING_ORE_MODDED.comment=§e[*]§r You can add modded ore IDs in the block.properties file of the shader pack to make them glow. Open block.properties with any text editor and add modded ore block IDs next to "block.10024=".
 
-option.GLOWING_AMETHYST=紫水晶发光
-value.GLOWING_AMETHYST.0=关闭
-value.GLOWING_AMETHYST.1=水晶
-value.GLOWING_AMETHYST.2=水晶&方块
+option.GLOWING_AMETHYST=Amethyst Glow
+value.GLOWING_AMETHYST.0=Off
+value.GLOWING_AMETHYST.1=Crystal
+value.GLOWING_AMETHYST.2=Crystal & Block
 
-option.GLOWING_LICHEN=发光地衣
-value.GLOWING_LICHEN.0=关闭
-value.GLOWING_LICHEN.1=封闭区域
-value.GLOWING_LICHEN.2=总是
+option.GLOWING_LICHEN=Glowing Lichen
+value.GLOWING_LICHEN.0=Off
+value.GLOWING_LICHEN.1=Enclosed Area
+value.GLOWING_LICHEN.2=Always
 
-option.EMISSIVE_REDSTONE_BLOCK=红石块发光
+option.EMISSIVE_REDSTONE_BLOCK=Redstone Block Glow
 
-option.EMISSIVE_LAPIS_BLOCK=青金石块发光
+option.EMISSIVE_LAPIS_BLOCK=Lapis Lazuli Block Glow
 
-option.GLOWING_ARMOR_TRIM=盔甲纹饰发光§e[*]§r
-option.GLOWING_ARMOR_TRIM.comment=使盔甲纹饰自发光。§e[*]§r 仅Iris上有效，Optifine不支持盔甲纹饰检测。
+option.GLOWING_ARMOR_TRIM=Armor Trim Glow§e[*]§r
+option.GLOWING_ARMOR_TRIM.comment=Makes armor trims emissive. §e[*]§r Only effective on Iris; Optifine does not support armor trim detection.
 
-option.NORMAL_MAP_STRENGTH=法线贴图强度
-option.NORMAL_MAP_STRENGTH.comment=调整表面凹凸细节的强度。§e[*]§r RP支持须设为labPBR/seuspbr并使用兼容资源包。
+option.NORMAL_MAP_STRENGTH=Normal Map Strength
+option.NORMAL_MAP_STRENGTH.comment=Adjusts the strength of surface bump details. §e[*]§r RP Support must be set to labPBR/seuspbr with a compatible resource pack.
 
-option.CUSTOM_EMISSION_INTENSITY=自发光强度
-option.CUSTOM_EMISSION_INTENSITY.comment=调整发光表面的强度。§e[*]§r RP支持须设为labPBR/seuspbr并使用兼容资源包。
+option.CUSTOM_EMISSION_INTENSITY=Emissive Intensity
+option.CUSTOM_EMISSION_INTENSITY.comment=Adjusts the intensity of emissive surfaces. §e[*]§r RP Support must be set to labPBR/seuspbr with a compatible resource pack.
 
-option.POM=§e视差贴图§r
-option.POM.comment=在表面上启用3D效果。§c[-]§r 会严重影响性能。§e[*]§r RP支持须设为labPBR/seuspbr并使用兼容资源包。
-value.POM.false=关闭
-value.POM.true=开启 §c[-]
+option.POM=§eParallax Mapping§r
+option.POM.comment=Enables 3D effects on surfaces. §c[-]§r Will severely impact performance. §e[*]§r RP Support must be set to labPBR/seuspbr with a compatible resource pack.
+value.POM.false=Off
+value.POM.true=On §c[-]
 
-option.POM_DEPTH=视差深度
-option.POM_DEPTH.comment=调整视差贴图的深度。§e[*]§r RP支持须设为labPBR/seuspbr并使用兼容资源包。
+option.POM_DEPTH=Parallax Depth
+option.POM_DEPTH.comment=Adjusts the depth of parallax mapping. §e[*]§r RP Support must be set to labPBR/seuspbr with a compatible resource pack.
 
-option.POM_QUALITY=§e视差质量§r
-option.POM_QUALITY.comment=调整视差贴图的清晰度/精度。§c[-]§r 高于200会严重影响性能。§e[*]§r 低于100强制视差光照模式为"平滑"。§e[*]§r RP支持须设为labPBR/seuspbr并使用兼容资源包。
+option.POM_QUALITY=§eParallax Quality§r
+option.POM_QUALITY.comment=Adjusts the sharpness/accuracy of parallax mapping. §c[-]§r Above 200 will severely impact performance. §e[*]§r Below 100 forces parallax lighting mode to "Smooth". §e[*]§r RP Support must be set to labPBR/seuspbr with a compatible resource pack.
 value.POM_QUALITY.16=16 §e[*]
 value.POM_QUALITY.32=32 §e[*]
 value.POM_QUALITY.64=64 §e[*]
 value.POM_QUALITY.256=256 §c[-]
 value.POM_QUALITY.512=512 §c[-]
 
-option.POM_DISTANCE=§e视差距离§r
-option.POM_DISTANCE.comment=调整视差贴图的计算距离。§e[*]§r 建议保持50以下以获得小幅性能提升。§e[*]§r RP支持须设为labPBR/seuspbr并使用兼容资源包。
+option.POM_DISTANCE=§eParallax Distance§r
+option.POM_DISTANCE.comment=Adjusts the calculation distance of parallax mapping. §e[*]§r Recommended to keep it below 50 for a slight performance improvement. §e[*]§r RP Support must be set to labPBR/seuspbr with a compatible resource pack.
 value.POM_DISTANCE.64=64 §e[*]
 value.POM_DISTANCE.128=128 §e[*]
 value.POM_DISTANCE.256=256 §e[*]
 value.POM_DISTANCE.512=512 §e[*]
 value.POM_DISTANCE.1024=1024 §e[*]
 
-option.POM_LIGHTING_MODE=视差光照模式
-option.POM_LIGHTING_MODE.comment=调整视差影响表面的光照风格。锐利: 视差墙壁若不朝向光源则无光照。平滑: 即使视差墙壁也保留光照。§e[*]§r 视差质量低于100时强制为"平滑"。
-value.POM_LIGHTING_MODE.1=平滑
-value.POM_LIGHTING_MODE.2=锐利
+option.POM_LIGHTING_MODE=Parallax Lighting Mode
+option.POM_LIGHTING_MODE.comment=Adjusts the lighting style of parallax-affected surfaces. Sharp: Parallax walls receive no light if not facing the light source. Smooth: Retains lighting even on parallax walls. §e[*]§r Forced to "Smooth" when parallax quality is below 100.
+value.POM_LIGHTING_MODE.1=Smooth
+value.POM_LIGHTING_MODE.2=Sharp
 
-option.POM_ALLOW_CUTOUT=§e镂空面POM§c[-]§r
-option.POM_ALLOW_CUTOUT.comment=使视差贴图能在镂空方块部分(如树叶间隙)工作。§c[-]§r 会严重影响性能。
+option.POM_ALLOW_CUTOUT=§eCutout POM§c[-]§r
+option.POM_ALLOW_CUTOUT.comment=Allows parallax mapping to work on cutout block parts (e.g., between leaves). §c[-]§r Will severely impact performance.
 
-option.DIRECTIONAL_BLOCKLIGHT=§e方向性方块光§r
-option.DIRECTIONAL_BLOCKLIGHT.comment=根据表面法线为方块光添加深度。§c[-]§r 某些情况可能产生视觉伪影。§c[-]§r 会影响性能。§e[*]§r RP支持须设为labPBR/seuspbr并使用兼容资源包。
-value.DIRECTIONAL_BLOCKLIGHT.0=关闭
-value.DIRECTIONAL_BLOCKLIGHT.3=淡 §c[-]
-value.DIRECTIONAL_BLOCKLIGHT.7=普通 §c[-]
-value.DIRECTIONAL_BLOCKLIGHT.11=浓 §c[-]
+option.DIRECTIONAL_BLOCKLIGHT=§eDirectional Block Light§r
+option.DIRECTIONAL_BLOCKLIGHT.comment=Adds depth to block light based on surface normals. §c[-]§r May produce visual artifacts in some cases. §c[-]§r Will affect performance. §e[*]§r RP Support must be set to labPBR/seuspbr with a compatible resource pack.
+value.DIRECTIONAL_BLOCKLIGHT.0=Off
+value.DIRECTIONAL_BLOCKLIGHT.3=Light §c[-]
+value.DIRECTIONAL_BLOCKLIGHT.7=Normal §c[-]
+value.DIRECTIONAL_BLOCKLIGHT.11=Strong §c[-]
 
-option.HELD_LIGHTING_MODE=动态手持光照
-option.HELD_LIGHTING_MODE.comment=允许手持光源照亮场景。
-value.HELD_LIGHTING_MODE.0=关闭
-value.HELD_LIGHTING_MODE.1=淡
-value.HELD_LIGHTING_MODE.2=普通
+option.HELD_LIGHTING_MODE=Dynamic Held Light
+option.HELD_LIGHTING_MODE.comment=Allows held light sources to illuminate the scene.
+value.HELD_LIGHTING_MODE.0=Off
+value.HELD_LIGHTING_MODE.1=Light
+value.HELD_LIGHTING_MODE.2=Normal
 
-option.BLOCKLIGHT_FLICKERING=方块光闪烁
-option.BLOCKLIGHT_FLICKERING.comment=为方块发出的光添加闪烁效果。
-value.BLOCKLIGHT_FLICKERING.0=关闭
+option.BLOCKLIGHT_FLICKERING=Block Light Flickering
+option.BLOCKLIGHT_FLICKERING.comment=Adds a flickering effect to light emitted by blocks.
+value.BLOCKLIGHT_FLICKERING.0=Off
 
-option.WAVING_SPEED=摆动速度
-option.WAVING_SPEED.comment=调整摆动效果的速度。
+option.WAVING_SPEED=Waving Speed
+option.WAVING_SPEED.comment=Adjusts the speed of waving effects.
 
-option.WAVING_I=摆动强度
-option.WAVING_I.comment=调整方块摆动时的移动幅度。§c[-]§r 摆动强度过高会导致方块穿插其他方块。
+option.WAVING_I=Waving Intensity
+option.WAVING_I.comment=Adjusts the movement amplitude of waving blocks. §c[-]§r Excessive waving intensity may cause blocks to clip through other blocks.
 value.WAVING_I.1.25=1.25 §c[-]
 value.WAVING_I.1.50=1.50 §c[-]
 value.WAVING_I.1.75=1.75 §c[-]
 value.WAVING_I.2.00=2.00 §c[-]
-value.WAVING_I.50.0=§c疯狂
+value.WAVING_I.50.0=§cCrazy
 
-option.NO_WAVING_INDOORS=室内无摆动
-option.NO_WAVING_INDOORS.comment=使用天空光防止封闭区域中方块摆动。§c[-]§r 启用可能与某些资源包或模组冲突。
+option.NO_WAVING_INDOORS=No Waving Indoors
+option.NO_WAVING_INDOORS.comment=Uses skylight to prevent block waving in enclosed areas. §c[-]§r May conflict with some resource packs or mods when enabled.
 
-option.WAVING_I_RAIN_MULT=§e摆动雨天倍数§r
-option.WAVING_I_RAIN_MULT.comment=雨天时倍增摆动的速度和强度。§c[-]§r 过高会导致方块穿插。§c[-]§r 超过100时影响性能。
+option.WAVING_I_RAIN_MULT=§eWaving Rain Multiplier§r
+option.WAVING_I_RAIN_MULT.comment=Multiplies the speed and intensity of waving during rain. §c[-]§r Too high may cause blocks to clip. §c[-]§r Affects performance above 100.
 value.WAVING_I.125=125 §c[-]
 value.WAVING_I.150=150 §c[-]
 value.WAVING_I.175=175 §c[-]
 value.WAVING_I.200=200 §c[-]
 
-option.WAVING_FOLIAGE=草摆动
-option.WAVING_FOLIAGE.comment=为草和类似植被添加运动模拟风吹。
+option.WAVING_FOLIAGE=Grass Waving
+option.WAVING_FOLIAGE.comment=Adds movement to grass and similar vegetation to simulate wind.
 
-option.WAVING_LEAVES=树叶摆动
-option.WAVING_LEAVES.comment=为树叶添加运动模拟风吹。
+option.WAVING_LEAVES=Leaves Waving
+option.WAVING_LEAVES.comment=Adds movement to leaves to simulate wind.
 
-option.WAVING_LAVA=岩浆纹理摆动
-option.WAVING_LAVA.comment=为岩浆添加持续运动。§e[*]§r 岩浆摆动不受"室内无摆动"设置影响。
+option.WAVING_LAVA=Lava Texture Waving
+option.WAVING_LAVA.comment=Adds continuous movement to lava. §e[*]§r Lava waving is not affected by the "No Waving Indoors" setting.
 
-option.WAVING_LILY_PAD=睡莲摆动§c[-]§r
-option.WAVING_LILY_PAD.comment=为睡莲和蛙卵添加运动模拟水波冲击。§c[-]§r 会导致含水方块上的睡莲变不可见。
+option.WAVING_LILY_PAD=Lily Pad Waving§c[-]§r
+option.WAVING_LILY_PAD.comment=Adds movement to lily pads and frogspawn to simulate water ripple impact. §c[-]§r Will cause lily pads on waterlogged blocks to become invisible.
 
-option.WAVING_WATER_VERTEX=水面摆动高度
-option.WAVING_WATER_VERTEX.comment=为水面位置添加运动模拟风吹。§e[*]§r 此选项与"波浪强度"设置无关。
+option.WAVING_WATER_VERTEX=Water Surface Waving Height
+option.WAVING_WATER_VERTEX.comment=Adds movement to the water surface position to simulate wind. §e[*]§r This option is independent of the "Wave Intensity" setting.
 
-option.WAVING_RAIN=雨雪纹理摆动
-option.WAVING_RAIN.comment=为下落的雨雪纹理添加运动使其更动态。
+option.WAVING_RAIN=Rain/Snow Texture Waving
+option.WAVING_RAIN.comment=Adds movement to falling rain/snow textures to make them more dynamic.
 
-option.SPECIAL_PORTAL_EFFECTS=传送门特效
-option.SPECIAL_PORTAL_EFFECTS.comment=为地狱传送门、末地传送门和末地折跃门添加特殊动画和自发光。
+option.SPECIAL_PORTAL_EFFECTS=Portal Effects
+option.SPECIAL_PORTAL_EFFECTS.comment=Adds special animations and emissive effects to Nether portals, End portals, and End gateways.
 
-option.REFLECTION_RES=§e反射分辨率§r
-option.REFLECTION_RES.comment=更改方块上PBR反射(以及世界空间反射)的分辨率以获取性能提升。§c[-]§r "完整"分辨率反射在某些情况下严重影响性能。§e[*]§r Optifine上不生效。
-value.REFLECTION_RES.1.0=§4§l§n§o完整
-value.REFLECTION_RES.0.5=§a一半
+option.REFLECTION_RES=§eReflection Resolution§r
+option.REFLECTION_RES.comment=Changes the resolution of PBR reflections on blocks (and world space reflections) for performance gains. §c[-]§r "Full" resolution reflections severely impact performance in some cases. §e[*]§r Not effective on Optifine.
+value.REFLECTION_RES.1.0=§4§l§n§oFull
+value.REFLECTION_RES.0.5=§aHalf
 
-option.WORLD_OUTLINE=§e世界描边§r
-option.WORLD_OUTLINE.comment=在方块周围添加亮色描边。§c[-]§r 会影响性能。
+option.WORLD_OUTLINE=§eWorld Outline§r
+option.WORLD_OUTLINE.comment=Adds a bright outline around blocks. §c[-]§r Will affect performance.
 
-option.WORLD_OUTLINE_THICKNESS=§e世界描边粗细§r
-option.WORLD_OUTLINE_THICKNESS.comment=决定世界描边效果的粗细。§c[-]§r 增加会影响性能。
+option.WORLD_OUTLINE_THICKNESS=§eWorld Outline Thickness§r
+option.WORLD_OUTLINE_THICKNESS.comment=Determines the thickness of the world outline effect. §c[-]§r Increasing will affect performance.
 
-option.WORLD_OUTLINE_I=世界描边亮度
-option.WORLD_OUTLINE_I.comment=决定世界描边效果的强度。
+option.WORLD_OUTLINE_I=World Outline Brightness
+option.WORLD_OUTLINE_I.comment=Determines the intensity of the world outline effect.
 
-option.WORLD_OUTLINE_ON_ENTITIES=实体世界描边
-option.WORLD_OUTLINE_ON_ENTITIES.comment=决定世界描边是否应用于实体。§c[-]§r 可能与某些自定义PBR资源包不完全兼容。
+option.WORLD_OUTLINE_ON_ENTITIES=Entity World Outline
+option.WORLD_OUTLINE_ON_ENTITIES.comment=Determines whether the world outline is applied to entities. §c[-]§r May not be fully compatible with some custom PBR resource packs.
 
-option.WORLD_OUTLINE_SCALED=距离缩放描边
-option.WORLD_OUTLINE_SCALED.comment=使世界描边大小随距离缩放。
+option.WORLD_OUTLINE_SCALED=Distance Scaled Outline
+option.WORLD_OUTLINE_SCALED.comment=Scales the world outline size with distance.
 
-option.DARK_OUTLINE=§e暗色描边§r
-option.DARK_OUTLINE.comment=在方块周围添加暗色描边。§c[-]§r 会影响性能。
+option.DARK_OUTLINE=§eDark Outline§r
+option.DARK_OUTLINE.comment=Adds a dark outline around blocks. §c[-]§r Will affect performance.
 
-option.DARK_OUTLINE_THICKNESS=§e暗色描边粗细§r
-option.DARK_OUTLINE_THICKNESS.comment=决定暗色描边效果的粗细。§c[-]§r 增加会影响性能。
+option.DARK_OUTLINE_THICKNESS=§eDark Outline Thickness§r
+option.DARK_OUTLINE_THICKNESS.comment=Determines the thickness of the dark outline effect. §c[-]§r Increasing will affect performance.
 
-option.RAIN_PUDDLES=§e雨水坑§r
-option.RAIN_PUDDLES.comment=雨天在表面添加水坑。§c[-]§r 会严重影响性能。
-value.RAIN_PUDDLES.0=§a关闭
-value.RAIN_PUDDLES.1=§c雨中积水
-value.RAIN_PUDDLES.2=§c雨中全覆盖
-value.RAIN_PUDDLES.3=§c常驻积水
-value.RAIN_PUDDLES.4=§c常驻全覆盖
+option.RAIN_PUDDLES=§eRain Puddles§r
+option.RAIN_PUDDLES.comment=Adds puddles on surfaces during rain. §c[-]§r Will severely impact performance.
+value.RAIN_PUDDLES.0=§aOff
+value.RAIN_PUDDLES.1=§cRain Puddles
+value.RAIN_PUDDLES.2=§cRain Full Coverage
+value.RAIN_PUDDLES.3=§cPermanent Puddles
+value.RAIN_PUDDLES.4=§cPermanent Full Coverage
 
-option.UNDERWATER_DISTORTION=水下扭曲
-option.UNDERWATER_DISTORTION.comment=镜头在水下时添加微妙的折射效果。
+option.UNDERWATER_DISTORTION=Underwater Distortion
+option.UNDERWATER_DISTORTION.comment=Adds a subtle refraction effect when the camera is underwater.
 
-option.SELECT_OUTLINE=选择框描边
-option.SELECT_OUTLINE.comment=决定方块选择框描边的颜色。
-value.SELECT_OUTLINE.0=关闭
-value.SELECT_OUTLINE.1=默认
-value.SELECT_OUTLINE.2=彩虹
-value.SELECT_OUTLINE.3=选择颜色
-value.SELECT_OUTLINE.4=通用
+option.SELECT_OUTLINE=Selection Outline
+option.SELECT_OUTLINE.comment=Determines the color of the block selection outline.
+value.SELECT_OUTLINE.0=Off
+value.SELECT_OUTLINE.1=Default
+value.SELECT_OUTLINE.2=Rainbow
+value.SELECT_OUTLINE.3=Select Color
+value.SELECT_OUTLINE.4=Universal
 
-option.SELECT_OUTLINE_AUTO_HIDE=自动隐藏选择框
-option.SELECT_OUTLINE_AUTO_HIDE.comment=玩家主手不持任何物品时隐藏方块选择框。
+option.SELECT_OUTLINE_AUTO_HIDE=Auto-Hide Selection Outline
+option.SELECT_OUTLINE_AUTO_HIDE.comment=Hides the block selection outline when the player's main hand is empty.
 
-option.SELECT_OUTLINE_I=描边亮度
-option.SELECT_OUTLINE_R=SO红
-option.SELECT_OUTLINE_G=SO绿
-option.SELECT_OUTLINE_B=SO蓝
+option.SELECT_OUTLINE_I=Outline Brightness
+option.SELECT_OUTLINE_R=SO Red
+option.SELECT_OUTLINE_G=SO Green
+option.SELECT_OUTLINE_B=SO Blue
 
-option.MOON_PHASE_INF_LIGHT=月相夜间光照
-option.MOON_PHASE_INF_LIGHT.comment=启用不同月相改变夜间光照亮度。
+option.MOON_PHASE_INF_LIGHT=Moon Phase Night Light
+option.MOON_PHASE_INF_LIGHT.comment=Enables different moon phases to change nighttime lighting brightness.
 
-option.MOON_PHASE_INF_ATMOSPHERE=月相夜间大气
-option.MOON_PHASE_INF_ATMOSPHERE.comment=启用不同月相改变夜间大气亮度。
+option.MOON_PHASE_INF_ATMOSPHERE=Moon Phase Night Atmosphere
+option.MOON_PHASE_INF_ATMOSPHERE.comment=Enables different moon phases to change nighttime atmosphere brightness.
 
-option.MOON_PHASE_INF_REFLECTION=月相月亮反射
-option.MOON_PHASE_INF_REFLECTION.comment=启用不同月相改变月亮反射的亮度。
+option.MOON_PHASE_INF_REFLECTION=Moon Phase Moon Reflection
+option.MOON_PHASE_INF_REFLECTION.comment=Enables different moon phases to change the brightness of moon reflections.
 
-option.MOON_PHASE_FULL=满月强度
-option.MOON_PHASE_FULL.comment=调整满月(最亮阶段)时的月相影响。
+option.MOON_PHASE_FULL=Full Moon Intensity
+option.MOON_PHASE_FULL.comment=Adjusts the moon phase influence during a full moon (brightest phase).
 
-option.MOON_PHASE_PARTIAL=弦月强度
-option.MOON_PHASE_PARTIAL.comment=调整满月和暗月之间所有月相的影响。这是Minecraft中最常看到的阶段。
+option.MOON_PHASE_PARTIAL=Partial Moon Intensity
+option.MOON_PHASE_PARTIAL.comment=Adjusts the moon phase influence for all phases between full and dark moon. This is the most commonly seen phase in Minecraft.
 
-option.MOON_PHASE_DARK=暗月强度
-option.MOON_PHASE_DARK.comment=调整新月(最暗阶段)时的月相影响。
+option.MOON_PHASE_DARK=Dark Moon Intensity
+option.MOON_PHASE_DARK.comment=Adjusts the moon phase influence during a new moon (darkest phase).
 
-option.CONNECTED_GLASS_EFFECT=连接玻璃
-option.CONNECTED_GLASS_EFFECT.comment=使所有类型玻璃相互连接。§e[*]§r 仅高级颜色追踪开启且系统支持时有效。§e[*]§r 安装Continuity模组时自动禁用。
+option.CONNECTED_GLASS_EFFECT=Connected Glass
+option.CONNECTED_GLASS_EFFECT.comment=Makes all types of glass connect to each other. §e[*]§r Only effective when Advanced Color Tracking is enabled and the system supports it. §e[*]§r Automatically disabled when the Continuity mod is installed.
 
-option.PORTAL_EDGE_EFFECT=发光传送门边框
-option.PORTAL_EDGE_EFFECT.comment=为末地和地狱传送门添加自发光边框。§e[*]§r 仅高级颜色追踪开启且系统支持时有效。
+option.PORTAL_EDGE_EFFECT=Glowing Portal Frame
+option.PORTAL_EDGE_EFFECT.comment=Adds an emissive border to End and Nether portals. §e[*]§r Only effective when Advanced Color Tracking is enabled and the system supports it.
 
-option.PUDDLE_VOXELIZATION=修复玻璃下水坑
-option.PUDDLE_VOXELIZATION.comment=启用水坑效果时，防止雨水坑在玻璃屋顶封闭区域形成。§e[*]§r 仅高级颜色追踪启用且细节质量设为高或以上时生效。
+option.PUDDLE_VOXELIZATION=Fix Puddles Under Glass
+option.PUDDLE_VOXELIZATION.comment=Prevents rain puddles from forming under glass-roofed enclosed areas when the puddle effect is enabled. §e[*]§r Only effective when Advanced Color Tracking is enabled and Detail Quality is set to High or above.
 
-option.COLORED_CANDLE_LIGHT=彩色蜡烛光照
-option.COLORED_CANDLE_LIGHT.comment=使蜡烛发出的光与其底座颜色一致。§e[*]§r 去饱和蜡烛变体继续使用通常的火焰颜色。
+option.COLORED_CANDLE_LIGHT=Colored Candle Light
+option.COLORED_CANDLE_LIGHT.comment=Makes the light emitted by candles match their base color. §e[*]§r Desaturated candle variants continue to use the usual flame color.
 
-option.COLORED_LIGHT_SATURATION=彩色光照饱和度
-option.COLORED_LIGHT_SATURATION.comment=调整高级颜色追踪产生的颜色饱和度。§e[*]§r 不推荐更改此值，视觉效果设计为默认饱和度下最平衡。
+option.COLORED_LIGHT_SATURATION=Colored Light Saturation
+option.COLORED_LIGHT_SATURATION.comment=Adjusts the color saturation produced by Advanced Color Tracking. §e[*]§r Not recommended to change this value; the visual effect is designed to be most balanced at default saturation.
 
-option.COLORED_LIGHT_FOG=§e彩色光照雾§r
-option.COLORED_LIGHT_FOG.comment=为场景添加体积方块光雾，夜晚或地下最明显。§e[*]§r 仅高级颜色追踪开启且系统支持时生效。§c[-]§r 会严重影响性能。
+option.COLORED_LIGHT_FOG=§eColored Light Fog§r
+option.COLORED_LIGHT_FOG.comment=Adds volumetric block light fog to the scene, most noticeable at night or underground. §e[*]§r Only effective when Advanced Color Tracking is enabled and the system supports it. §c[-]§r Will severely impact performance.
 
-option.COLORED_LIGHT_FOG_I=光照雾强度
-option.COLORED_LIGHT_FOG_I.comment=决定彩色光照雾的亮度。
+option.COLORED_LIGHT_FOG_I=Light Fog Intensity
+option.COLORED_LIGHT_FOG_I.comment=Determines the brightness of the colored light fog.
 
-option.LIGHT_COLOR_MULTS=§e光照颜色倍数
-option.LIGHT_COLOR_MULTS.comment=启用在所有表面可见的光照颜色自定义。
+option.LIGHT_COLOR_MULTS=§eLight Color Multipliers
+option.LIGHT_COLOR_MULTS.comment=Enables customization of light colors visible on all surfaces.
 
-option.ATM_COLOR_MULTS=§e大气颜色倍数
-option.ATM_COLOR_MULTS.comment=启用主要见于天空和雾中的大气颜色自定义。
+option.ATM_COLOR_MULTS=§eAtmosphere Color Multipliers
+option.ATM_COLOR_MULTS.comment=Enables customization of atmosphere colors primarily visible in the sky and fog.
 
-option.LIGHT_MORNING_R=清晨光照红
-option.LIGHT_MORNING_G=清晨光照绿
-option.LIGHT_MORNING_B=清晨光照蓝
-option.LIGHT_MORNING_I=清晨光照强度
-option.ATM_MORNING_R=清晨大气红
-option.ATM_MORNING_G=清晨大气绿
-option.ATM_MORNING_B=清晨大气蓝
-option.ATM_MORNING_I=清晨大气强度
-option.LIGHT_NOON_R=正午光照红
-option.LIGHT_NOON_G=正午光照绿
-option.LIGHT_NOON_B=正午光照蓝
-option.LIGHT_NOON_I=正午光照强度
-option.ATM_NOON_R=正午大气红
-option.ATM_NOON_G=正午大气绿
-option.ATM_NOON_B=正午大气蓝
-option.ATM_NOON_I=正午大气强度
-option.LIGHT_NIGHT_R=夜晚光照红
-option.LIGHT_NIGHT_G=夜晚光照绿
-option.LIGHT_NIGHT_B=夜晚光照蓝
-option.LIGHT_NIGHT_I=夜晚光照强度
-option.ATM_NIGHT_R=夜晚大气红
-option.ATM_NIGHT_G=夜晚大气绿
-option.ATM_NIGHT_B=夜晚大气蓝
-option.ATM_NIGHT_I=夜晚大气强度
-option.LIGHT_RAIN_R=雨天光照红
-option.LIGHT_RAIN_G=雨天光照绿
-option.LIGHT_RAIN_B=雨天光照蓝
-option.LIGHT_RAIN_I=雨天光照强度
-option.ATM_RAIN_R=雨天大气红
-option.ATM_RAIN_G=雨天大气绿
-option.ATM_RAIN_B=雨天大气蓝
-option.ATM_RAIN_I=雨天大气强度
-option.LIGHT_NETHER_R=地狱光照红
-option.LIGHT_NETHER_G=地狱光照绿
-option.LIGHT_NETHER_B=地狱光照蓝
-option.LIGHT_NETHER_I=地狱光照强度
-option.ATM_NETHER_R=地狱大气红
-option.ATM_NETHER_G=地狱大气绿
-option.ATM_NETHER_B=地狱大气蓝
-option.ATM_NETHER_I=地狱大气强度
-option.LIGHT_END_R=末地光照红
-option.LIGHT_END_G=末地光照绿
-option.LIGHT_END_B=末地光照蓝
-option.LIGHT_END_I=末地光照强度
-option.ATM_END_R=末地大气红
-option.ATM_END_G=末地大气绿
-option.ATM_END_B=末地大气蓝
-option.ATM_END_I=末地大气强度
+option.LIGHT_MORNING_R=Morning Light Red
+option.LIGHT_MORNING_G=Morning Light Green
+option.LIGHT_MORNING_B=Morning Light Blue
+option.LIGHT_MORNING_I=Morning Light Intensity
+option.ATM_MORNING_R=Morning Atmosphere Red
+option.ATM_MORNING_G=Morning Atmosphere Green
+option.ATM_MORNING_B=Morning Atmosphere Blue
+option.ATM_MORNING_I=Morning Atmosphere Intensity
+option.LIGHT_NOON_R=Noon Light Red
+option.LIGHT_NOON_G=Noon Light Green
+option.LIGHT_NOON_B=Noon Light Blue
+option.LIGHT_NOON_I=Noon Light Intensity
+option.ATM_NOON_R=Noon Atmosphere Red
+option.ATM_NOON_G=Noon Atmosphere Green
+option.ATM_NOON_B=Noon Atmosphere Blue
+option.ATM_NOON_I=Noon Atmosphere Intensity
+option.LIGHT_NIGHT_R=Night Light Red
+option.LIGHT_NIGHT_G=Night Light Green
+option.LIGHT_NIGHT_B=Night Light Blue
+option.LIGHT_NIGHT_I=Night Light Intensity
+option.ATM_NIGHT_R=Night Atmosphere Red
+option.ATM_NIGHT_G=Night Atmosphere Green
+option.ATM_NIGHT_B=Night Atmosphere Blue
+option.ATM_NIGHT_I=Night Atmosphere Intensity
+option.LIGHT_RAIN_R=Rain Light Red
+option.LIGHT_RAIN_G=Rain Light Green
+option.LIGHT_RAIN_B=Rain Light Blue
+option.LIGHT_RAIN_I=Rain Light Intensity
+option.ATM_RAIN_R=Rain Atmosphere Red
+option.ATM_RAIN_G=Rain Atmosphere Green
+option.ATM_RAIN_B=Rain Atmosphere Blue
+option.ATM_RAIN_I=Rain Atmosphere Intensity
+option.LIGHT_NETHER_R=Nether Light Red
+option.LIGHT_NETHER_G=Nether Light Green
+option.LIGHT_NETHER_B=Nether Light Blue
+option.LIGHT_NETHER_I=Nether Light Intensity
+option.ATM_NETHER_R=Nether Atmosphere Red
+option.ATM_NETHER_G=Nether Atmosphere Green
+option.ATM_NETHER_B=Nether Atmosphere Blue
+option.ATM_NETHER_I=Nether Atmosphere Intensity
+option.LIGHT_END_R=End Light Red
+option.LIGHT_END_G=End Light Green
+option.LIGHT_END_B=End Light Blue
+option.LIGHT_END_I=End Light Intensity
+option.ATM_END_R=End Atmosphere Red
+option.ATM_END_G=End Atmosphere Green
+option.ATM_END_B=End Atmosphere Blue
+option.ATM_END_I=End Atmosphere Intensity
 
-option.XLIGHT_R=方块光红色
-option.XLIGHT_G=方块光绿色
-option.XLIGHT_B=方块光蓝色
-option.XLIGHT_I=方块光强度
+option.XLIGHT_R=Block Light Red
+option.XLIGHT_G=Block Light Green
+option.XLIGHT_B=Block Light Blue
+option.XLIGHT_I=Block Light Intensity
 
-option.XLIGHT_CURVE=方块光对比度
-option.XLIGHT_CURVE.comment=调整方块光随距离衰减的速度。
+option.XLIGHT_CURVE=Block Light Contrast
+option.XLIGHT_CURVE.comment=Adjusts how quickly block light attenuates with distance.
