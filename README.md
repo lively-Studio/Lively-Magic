@@ -116,7 +116,7 @@ Lively-Magic/
 
 ## 许可
 
-GNU General Public License v3.0
+GNU General Public License v3.0 · [github.com/lively-Studio](https://github.com/lively-Studio/Lively-Magic)
 
 ---
 
