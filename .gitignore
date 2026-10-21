@@ -1,0 +1,5 @@
+# macOS
+.DS_Store
+
+# 构建产物：光影包 zip 不入库
+*.zip
